@@ -1,6 +1,3 @@
 SERVLET - Diminuitivo em inglês que significa "SERVIDORZINHO" ele permite trabalhar requisições e respostas de forma dinamica,
 	  seja através de uma classe que tem uma lógica pra executar algo (acessar banco de dados etc) ou para simples consultas dinamicas.
-
-getWriter() - resp.getWriter() - método usado para criar a página html direto na classe como resposta, segue exemplo no pdf "servlet".
-
-f12 no navegador - Te da as opções dev, como: network, console etc.
+getWriter() - resp.getWriter() - método usado para criar a página html direto na classe como resposta, segue exemplo no pdf "servlet"

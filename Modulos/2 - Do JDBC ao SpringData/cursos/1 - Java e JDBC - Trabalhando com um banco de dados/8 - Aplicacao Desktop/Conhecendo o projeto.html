@@ -1,0 +1,1227 @@
+
+<!-- saved from url=(0067)https://cursos.alura.com.br/course/jdbc-dao-persistencia/task/81275 -->
+<html lang="pt-BR" data-product="alura" style="scroll-behavior: smooth;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style class="vjs-styles-defaults">
+      .video-js {
+        width: 300px;
+        height: 150px;
+      }
+
+      .vjs-fluid {
+        padding-top: 56.25%
+      }
+    </style><style class="vjs-styles-dimensions">
+      .video-player-dimensions {
+        width: 1280px;
+        height: 720px;
+      }
+
+      .video-player-dimensions.vjs-fluid {
+        padding-top: 56.25%;
+      }
+    </style><link rel="stylesheet" type="text/css" href="./Conhecendo o projeto_files/clipper.647d33f8.css">
+<link rel="stylesheet" href="./Conhecendo o projeto_files/back-to-top.9a8b5967.css">
+<link rel="stylesheet" href="./Conhecendo o projeto_files/videoShortcutsModal.e1c7fc31.css">
+<link rel="stylesheet" href="./Conhecendo o projeto_files/modal.509c233d.css">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+
+	
+		
+
+
+
+<!-- Google Tag Manager -->
+<script type="text/javascript" async="" src="./Conhecendo o projeto_files/23465.js.download"></script><script type="text/javascript" async="" src="./Conhecendo o projeto_files/analytics.js.download"></script><script async="" src="./Conhecendo o projeto_files/analytics.js.download"></script><script async="" src="./Conhecendo o projeto_files/gtm.js.download"></script><script>
+	(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+		new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer', 'GTM-TN542JN');
+</script>
+<!-- End Google Tag Manager -->
+
+
+	<script type="text/javascript">
+        dataLayer.push({
+            'tipoPagina': 'Aula',
+            'curso': 'Java e JDBC: Trabalhando com um banco de dados'
+        });
+	</script>
+
+	
+
+	<title>Java e JDBC: Aula 8 - Atividade 5 Conhecendo o projeto | Alura - Cursos online de tecnologia</title>
+	
+	<link rel="shortcut icon" href="https://cursos.alura.com.br/assets/images/alura/favicon.ico">
+	
+	<link href="./Conhecendo o projeto_files/css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com/">
+
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/video-js.5c840c77.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/silvermine-videojs-quality-selector.min.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/prettify.a2c88d69.css">
+
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/base.33d1ddbf.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/formattedText.e58775de.css">
+	
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/container.16466c50.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/classPage.20ba796a.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/menuSettings.7f4d8bd2.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/taskProgress.a5300583.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/taskMessageInfo.67eb9bc6.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/alternativeList.7f369f7b.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/taskFeedback.4bda0782.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/markdown.3ec31c65.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/finishSection.bee005cf.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/phrase.6d459a32.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/hqexplanation.3ed41021.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/openquestion.2889f14f.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/textcontent.7298b79f.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/video.e82ab0eb.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/singlechoice.b545e19f.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/music.8fe6cab6.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/multiplechoice.70f60e4c.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/videodialog.36286910.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/fillintheblank.59273039.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/speakingpractice.13b2c5c5.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/pronunciationpractice.d512f574.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/repetition.141dc241.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/genericVideo.2a5ae191.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/projectSubmit.4879daff.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/extraContentTask.b2d126e6.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/taskContent.1ef47209.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/taskButtons.ed4fd65b.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/alert.58468b89.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/markdownEditor.600de57a.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/audioPlayer.0a362c88.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/notes.d6f46832.css">
+	
+	
+
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/dark-mode.5d0b5af5.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/taskFeedbackAnswer.72669c00.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/theater-mode.1c783503.css">
+	<link rel="stylesheet" href="./Conhecendo o projeto_files/autoplay-videojs.250faf62.css">
+
+	
+	<style type="text/css">
+		.task:before, .video-js .vjs-play-progress {
+			background-color: #2A7AE4;
+		}
+
+
+	</style>
+
+
+	<script async="" src="./Conhecendo o projeto_files/hotjar-1638253.js.download"></script><style type="text/css">:root topadblock, :root span[id^="ezoic-pub-ad-placeholder-"], :root script[src^="http://free-shoutbox.net/app/webroot/shoutbox/sb.php?shoutbox="] + #freeshoutbox_content, :root input[onclick^="window.open('http://www.FriendlyDuck.com/"], :root img[alt^="Fuckbook"], :root iframe[src^="http://static.mozo.com.au/strips/"], :root div[jscontroller="U835zd"] + c-wiz[jsrenderer="YnuqN"], :root div[id^="zergnet-widget"], :root div[id^="traffective-ad-"], :root div[id^="sticky_ad_"], :root div[id^="rc-widget-"], :root div[id^="q1-adset-"], :root div[id^="proadszone-"], :root div[id^="lazyad-"], :root div[id^="gtm-ad-"], :root div[id^="ezoic-pub-ad-"], :root div[id^="dmRosAdWrapper"], :root div[id^="div-adtech-ad-"], :root div[id^="dfp-slot-"], :root div[id^="dfp-ad-"], :root div[id^="code_ads_"], :root div[id^="block-views-topheader-ad-block-"], :root div[id^="advt-"], :root div[id^="advads_"], :root div[id^="ads300_600-widget"], :root input[onclick^="window.open('http://www.friendlyduck.com/"], :root div[id^="ads300_250-widget"], :root div[id^="ads300_100-widget"], :root div[id^="ads120_600-widget"], :root div[id^="adrotate_widgets-"], :root div[id^="adfox_"], :root div[id^="ad_script_"], :root div[id^="ad_rect_"], :root div[id^="ad_position_"], :root div[id^="ad-server-"], :root div[id^="ad-inserter-"], :root div[id^="ad-cid-"], :root div[id^="acm-ad-tag-"], :root div[id^="YFBMSN"], :root div[id^="ADV-SLOT-"], :root div[data-test-id="AdDisplayWrapper"], :root div[data-spotim-slot], :root div[data-role="sidebarAd"], :root div[data-native_ad], :root div[data-mediatype="advertising"], :root div[data-id-advertdfpconf], :root div[data-crl="true"][data-id^="CarouselPLA-"], :root div[data-content="Advertisement"], :root div[data-adunit], :root div[data-adunit-path], :root div[data-adname], :root div[data-ad-wrapper], :root div[data-ad-placeholder], :root div[class^="zn-sponsored-outbrain-"], :root div[class^="proadszone-"], :root div[class^="pane-google-admanager-"], :root div[class^="lifeOnwerAd"], :root div[class^="largeRectangleAd_"], :root div[class^="kiwiad-popup"], :root div[class^="kiwiad-desktop"], :root div[class^="index_adBeforeContent_"], :root div[class^="index_adAfterContent_"], :root div[class^="index__adWrapper"], :root div[class^="block-openx-"], :root div[class^="backfill-taboola-home-slot-"], :root div[class^="articleAdUnitMPU_"], :root div[class^="advertisement-desktop"], :root div[class^="adsbutt_wrapper_"], :root div[class^="ads-partner-"], :root div[class^="adbanner_"], :root div[class^="ad_position_"], :root div[class^="SponsoredAds"], :root div[class^="ResponsiveAd-"], :root div[class^="PreAd_"], :root div[class^="Display_displayAd"], :root div[class^="Directory__footerAds"], :root div[class^="BannerAd_"], :root div[class^="AdhesionAd_"], :root div[class^="Ad__bigBox"], :root div[class^="Ad__adContainer"], :root div[id^="divAdvAD_"], :root div[class^="ad_border_"], :root div[class^="AdItem-"], :root div[class^="AdEmbeded__AddWrapper"], :root span[data-component-type="s-ads-metrics"], :root div[class^="AdBannerWrapper-"], :root div[class*="_AdInArticle_"], :root div[class*="-storyBodyAd-"], :root div[data-subscript="Advertising"], :root div[class$="dealnews"] > .dealnews, :root div > [class][onclick*=".updateAnalyticsEvents"], :root display-ads, :root display-ad-component, :root bottomadblock, :root aside[id^="tn_ads_widget-"], :root aside[id^="adrotate_widgets-"], :root amp-ad-custom, :root a[target="_blank"][onmousedown="this.href^='http://paid.outbrain.com/network/redir?"], :root a[target="_blank"][href^="http://api.taboola.com/"], :root a[style="display:block;width:300px;min-height:250px"][href^="http://li.cnet.com/click?"], :root div[class^="BlockAdvert-"], :root a[src^="https://www.utherverse.com/net/"], :root a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"], :root a[onclick*="//m.economictimes.com/etmack/click.htm"], :root a[href^="https://zononi.com/"], :root a[href^="https://www.what-sexdating.com/"], :root a[href^="https://www.vewwrmp.com/"], :root a[href^="https://www.spyoff.com/"], :root a[href^="https://www.sheetmusicplus.com/?aff_id="], :root a[href^="https://www.sheetmusicplus.com/"][href*="?aff_id="], :root a[href^="https://www.share-online.biz/affiliate/"], :root a[href^="https://www.securegfm.com/"], :root a[href^="https://www.rabbits.webcam/?id="], :root a[href^="https://www.purevpn.com/"][href*="&utm_source=aff-"], :root a[href^="https://www.privateinternetaccess.com/"] > img, :root a[href^="https://www.porngamesxxx.com/"][href*="?campaign="], :root a[href^="https://www.passeura.com/"], :root div[id^="amzn-assoc-ad"], :root a[href^="https://www.oboom.com/ref/"], :root div[itemtype="http://schema.org/WPAdBlock"], :root a[href^="https://www.nudeidols.com/cams/"], :root a[href^="https://www.mypornstarcams.com/landing/click/"], :root a[href^="https://www.kingsoffetish.com/tour?partner_id="], :root div[data-adzone], :root a[href^="https://www.iyalc.com/"], :root a[href^="https://www.goldenfrog.com/vyprvpn?offer_id="][href*="&aff_id="], :root a[href^="https://www.get-express-vpn.com/offer/"], :root a[href^="https://www.gambling-affiliation.com/cpc/"], :root a[href^="https://www.clicktraceclick.com/"], :root a[href^="https://www.camsoda.com/enter.php?id="], :root a[href^="https://www.brazzersnetwork.com/landing/"], :root a[href^="https://www.bebi.com"], :root div[class^="pane-adsense-managed-"], :root a[href^="https://www.bang.com/?aff="], :root a[href^="https://www.awin1.com/cread.php?awinaffid="], :root a[href^="https://www.arthrozene.com/"][href*="?tid="], :root a[href^="https://www.adxtro.com/"], :root a[href^="https://weedzy.co.uk/"][href*="&utm_"], :root a[href^="https://vod09197d7.club/"], :root a[href^="https://vo2.qrlsx.com/"], :root a[href^="https://unreshiramor.com/"], :root a[href^="https://uncensored.game/"], :root a[href^="https://ttf.trmobc.com/"], :root a[href^="https://trusted-click-host.com/"], :root a[href^="https://trf.bannerator.com/"], :root a[href^="https://traffic.bannerator.com/"], :root a[href^="https://trackjs.com/?utm_source"], :root a[href^="https://tracking.truthfinder.com/?a="], :root a[href^="https://tracking.comfortclick.eu/"], :root a[href^="https://track.wg-aff.com"], :root a[href^="https://track.ultravpn.com/"], :root a[href^="https://track.trkinator.com/"], :root a[href^="https://track.interactivegf.com/"], :root a[href^="https://www.adultempire.com/"][href*="?partner_id="], :root a[href^="https://track.healthtrader.com/"], :root a[href^="https://track.clickmoi.xyz/"], :root a[href^="https://track.bruceads.com/"], :root a[href^="https://track.afftck.com/"], :root a[href^="https://track.afcpatrk.com/"], :root a[href^="https://torrentsafeguard.com/?aid="], :root a[href^="https://torguard.net/aff.php"] > img, :root a[href^="https://topoffers.com/"][href*="/?pid="], :root a[href^="https://tc.tradetracker.net/"] > img, :root a[href^="https://t.mobtya.com/"], :root a[href^="https://t.hrtyj.com/"], :root a[href^="https://t.hrtye.com/"], :root div[id^="ad_head_celtra_"], :root a[href^="https://wittered-mainging.com/"], :root a[href^="https://t.grtyi.com/"], :root a[href^="https://syndication.optimizesrv.com/splash.php?"], :root a[href^="https://syndication.exoclick.com/splash.php?"], :root a[href^="https://syndication.dynsrvtbg.com/splash.php?"], :root a[href^="https://static.fleshlight.com/images/banners/"], :root a[href^="https://squren.com/rotator/?atomid="], :root a[href^="https://sexsimulator.game/tab/?SID="], :root a[href^="https://servedbyadbutler.com/"], :root a[href^="https://www.travelzoo.com/oascampaignclick/"], :root a[href^="https://see.kmisln.com/"], :root a[href^="https://secure.starsaffiliateclub.com/C.ashx?"], :root div[id^="ad-div-"], :root a[href^="https://secure.eveonline.com/ft/?aid="], :root a[href^="https://secure.cbdpure.com/aff/"], :root a[href^="https://secure.bstlnk.com/"], :root a[href^="https://secure.adnxs.com/clktrb?"], :root a[href^="https://scurewall.co/"], :root div[class^="kiwi-ad-wrapper"], :root a[href^="https://rev.adsession.com/"], :root iframe[src^="https://pagead2.googlesyndication.com/"], :root a[href^="https://retiremely.com/"], :root a[href^="https://refpaano.host/"], :root a[href^="https://reachtrgt.com/"], :root a[href^="https://prf.hn/click/"][href*="/camref:"] > img, :root #rhs_block .mod > .gws-local-hotels__booking-module, :root a[href^="http://www.my-dirty-hobby.com/?sub="], :root a[href^="https://porndeals.com/?track="], :root a[href^="https://offerforge.net/"], :root a[href^="https://ndt5.net/"], :root a[href^="https://myusenet.xyz/"], :root a[href^="https://my-movie.club/"], :root [href^="https://detachedbates.com/"], :root a[href^="https://mk-cdn.net/"], :root a[href^="https://mk-ads.com/"], :root a[href^="https://medleyads.com/"], :root a[href^="https://mediaserver.gvcaffiliates.com/renderBanner.do?"], :root iframe[src^="https://tpc.googlesyndication.com/"], :root a[href*=".approvallamp.club/"], :root a[href^="https://a.bestcontentoperation.top/"], :root a[href^="https://landing1.brazzersnetwork.com"], :root a[href^="http://adrunnr.com/"], :root a[href^="https://landing.brazzersplus.com/"], :root a[href^="https://land.rk.com/landing/"], :root a[href^="https://juicyads.in/"], :root a[href^="https://join.virtuallust3d.com/"], :root a[href^="http://www.uniblue.com/cm/"], :root a[href^="https://join.sexworld3d.com/track/"], :root a[href^="https://join.dreamsexworld.com/"], :root a[href^="https://track.effiliation.com/servlet/effi.redir?"], :root a[href^="https://iqoption.com/lp/mobile-partner/"][href*="?aff="], :root [href^="http://join.shemalepornstar.com/"], :root a[href^="https://incisivetrk.cvtr.io/click?"], :root a[href^="https://iactrivago.ampxdirect.com/"], :root [href*="https://www.jmbullion.com/gold/"], :root a[href^="https://iac.ampxdirect.com/"], :root div[data-ismultirow="true"][data-id^="CarouselPLA-"], :root a[href^="https://horny-pussies.com/tds"], :root a[href^="https://graizoah.com/"], :root a[href^="https://googleads.g.doubleclick.net/pcs/click"], :root a[href^="http://cdn.adstract.com/"], :root a[href^="https://gogoman.me/"], :root a[href^="https://tracking.avapartner.com/"], :root a[href^="https://go.xxxjmp.com/"], :root a[href^="https://go.xtbaffiliates.com/"], :root a[href^="https://go.strpjmp.com/"], :root a[href^="https://go.stripchat.com/"][href*="&campaignId="], :root a[href^="https://go.markets.com/visit/?bta="], :root a[href^="https://go.julrdr.com/"], :root a[href^="https://go.goasrv.com/"], :root a[href^="https://adnetwrk.com/"], :root a[href^="https://go.gldrdr.com/"], :root a[href^="https://fleshlight.sjv.io/"], :root a[href^="https://go.etoro.com/"] > img, :root div[id^="mainads"], :root a[href^="https://go.currency.com/"], :root a[href^="http://guideways.info/"], :root a[href^="https://go.cmrdr.com/"], :root a[href*=".inclk.com/"], :root a[href^="https://go.ad2up.com/"], :root a[href^="https://giftsale.co.uk/?utm_"], :root a[href^="https://get.surfshark.net/aff_c?"][href*="&aff_id="] > img, :root a[href^="https://fonts.fontplace9.com/"], :root a[href^="http://clkmon.com/adServe/"], :root a[href^="https://flirtaescopa.com/"], :root a[href^="https://fertilitycommand.com/"], :root a[href^="https://fakelay.com/"], :root a[href^="https://earandmarketing.com/"], :root [lazy-ad="leftthin_banner"], :root a[href^="https://dynamicadx.com/"], :root .GFYY1SVE2 > .GFYY1SVD2 > .GFYY1SVG5, :root a[href^="https://djtcollectorclub.org/"][href*="?affiliate_id="], :root a[href^="//srv.buysellads.com/"], :root a[href^="https://dianches-inchor.com/"], :root a[href^="https://creacdn.top-convert.com/"], :root a[href^="https://cpmspace.com/"], :root a[href^="https://clicks.pipaffiliates.com/"], :root .commercial-unit-mobile-top > .v7hl4d, :root a[href^="https://click.plista.com/pets"], :root a[href^="https://chaturbate.xyz/"], :root a[href^="http://look.djfiln.com/"], :root a[href^="https://chaturbate.jjgirls.com/"][href*="?tour="], :root a[href^="https://chaturbate.com/in/?track="], :root a[href^="https://chaturbate.com/in/?tour="], :root a[href^="https://chaturbate.com/affiliates/"], :root [href*="wap4dollar.com/"], :root .__y_elastic .__y_item, :root a[href^="https://mcdlks.com/"], :root a[href^="https://bs.serving-sys.com"], :root .mod > ._jH + .rscontainer, :root a[href^="https://blackorange.go2cloud.org/"], :root a[href^="https://go.hpyrdr.com/"], :root a[href^="https://billing.purevpn.com/aff.php"] > img, :root a[href^="https://affiliates.bet-at-home.com/processing/"], :root a[href^="https://ads.ad4game.com/"], :root a[href^="https://betway.com/"][href*="&a="], :root a[href^="http://www.linkbucks.com/referral/"], :root a[href^="https://azpresearch.club/"], :root a[href^="https://tour.mrskin.com/"], :root .ra[align="right"][width="30%"], :root a[href^="https://axdsz.pro/"], :root a[href^="https://awptjmp.com/"], :root a[href^="http://www.fleshlight.com/"], :root a[href^="https://aweptjmp.com/"], :root a[href^="https://awentw.com/"], :root a[href^="https://albionsoftwares.com/"], :root a[href^="//postlnk.com/"], :root a[href^="https://affiliate.rusvpn.com/click.php?"], :root a[href^="https://adultfriendfinder.com/go/page/landing"], :root a[href*="pussl3.com"], :root a[href^="https://adswick.com/"], :root a[href^="https://tracking.trackcasino.co/"], :root ADS-RIGHT, :root .GKJYXHBF2 > .GKJYXHBE2 > .GKJYXHBH5, :root a[href^="https://adserver.adreactor.com/"], :root .lads[width="100%"][style="background:#FFF8DD"], :root a[href^="https://land.brazzersnetwork.com/landing/"], :root a[href^="https://ads.leovegas.com/redirect.aspx?"], :root a[href^="https://ads.betfair.com/redirect.aspx?"], :root a[href^="https://meet-to-fuck.com/tds"], :root a[href^="https://adhealers.com/"], :root a[href^="https://misspkl.com/"], :root a[href^="https://ad.zanox.com/ppc/"] > img, :root app-advertisement, :root a[href^="https://ad.doubleclick.net/"], :root a[href^="http://zevera.com/afi.html"], :root a[href^="http://go.oclaserver.com/"], :root a[href^="https://ad.atdmt.com/"], :root a[href^="https://cams.imagetwist.com/in/?track="], :root .trc_rbox .syndicatedItem, :root a[href^="https://aaucwbe.com/"], :root a[href^="https://a.bestcontentweb.top/"], :root a[href^="http://xtgem.com/click?"], :root a[href^="https://ads.trafficpoizon.com/"], :root div[class^="local-feed-banner-ads"], :root a[href^="http://wxdownloadmanager.com/dl/"], :root a[href^="http://www.zergnet.com/i/"], :root a[onmousedown^="this.href='http://staffpicks.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root a[href^="http://www.usearchmedia.com/signup?"], :root a[href^="http://www.torntv-downloader.com/"], :root a[href^="http://www.tirerack.com/affiliates/"], :root a[href^="http://www.text-link-ads.com/"], :root a[href^="https://gghf.mobi/"], :root a[href^="http://www.terraclicks.com/"], :root a[href^="https://ads-for-free.com/click.php?"], :root a[href^="http://www.socialsex.com/"], :root a[href^="https://join.virtualtaboo.com/track/"], :root a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"], :root [href^="https://awbbjmp.com/"], :root a[href^="http://www.sfippa.com/"], :root a[href^="http://www.xmediaserve.com/"], :root a[href^="http://www.sex.com/videos/?utm_"], :root a[href^="https://natour.naughtyamerica.com/track/"], :root a[href^="http://paid.outbrain.com/network/redir?"], :root a[href^="http://www.sex.com/?utm_"], :root a[href^="http://secure.signup-page.com/"], :root a[href^="http://www.quick-torrent.com/download.html?aff"], :root a[href^="http://www.pinkvisualgames.com/?revid="], :root a[href^="https://trklvs.com/"], :root a[href^="http://www.paddypower.com/?AFF_ID="], :root a[href^="https://go.247traffic.com/"], :root a[href^="http://www.freefilesdownloader.com/"], :root a[href^="http://www.mysuperpharm.com/"], :root .trc_rbox_border_elm .syndicatedItem, :root a[href^="http://www.myfreepaysite.com/sfw_int.php?aid"], :root a[href^="http://www.myfreepaysite.com/sfw.php?aid"], :root a[href^="http://bcntrack.com/"], :root a[href^="http://www.securegfm.com/"], :root a[href^="http://www.liversely.net/"], :root a[href^="https://partners.fxoro.com/click.php?"], :root [href*="//trackmstr.com"], :root [href*="prayuserparka.com/"], :root a[href^="http://www.idownloadplay.com/"], :root a[href^="http://www.hitcpm.com/"], :root a[href^="http://fusionads.net"], :root a[href^="http://www.hibids10.com/"], :root div[class^="awpcp-random-ads"], :root [href*="//securesafemembers.com"], :root a[href^="http://www.graboid.com/affiliates/"], :root a[href^="http://www.gamebookers.com/cgi-bin/intro.cgi?"], :root div[id^="div_openx_ad_"], :root a[href^="http://www.friendlyquacks.com/"], :root a[href^="https://www.financeads.net/tc.php?"], :root a[href*=".tfaln.com/"], :root a[href^="http://www.friendlyduck.com/AF_"], :root a[href^="https://content.oneindia.com/www/delivery/"], :root a[href^="http://www.fpcTraffic2.com/blind/in.cgi?"], :root a[href^="http://www.flashx.tv/downloadthis"], :root .trc_rbox_div a[target="_blank"][href^="http://tab"], :root a[href^="https://americafirstpolls.com/"], :root a[href^="http://clickserv.sitescout.com/"], :root a[href^="http://www.firstload.de/affiliate/"], :root a[href^="http://www.twinplan.com/AF_"], :root a[href^="http://www.fducks.com/"], :root a[href^="http://www.easydownloadnow.com/"], :root a[href^="http://www.duckssolutions.com/"], :root a[href^="https://offers.refchamp.com/"], :root a[href^="https://go.trkclick2.com/"], :root a[href^="https://www.mrskin.com/account/"], :root a[href^="http://www.duckcash.eu/"], :root a[href^="http://go.seomojo.com/tracking202/"], :root a[href^="http://www.downloadweb.org/"], :root a[href^="http://www.down1oads.com/"], :root a[href^="http://www.dealcent.com/register.php?affid="], :root .rscontainer > .ellip, :root a[href^="http://www.clkads.com/adServe/"], :root div[class^="adpubs-"], :root a[href*="deliver.trafficfabrik.com"], :root a[href^="http://www.cash-duck.com/"], :root a[href^="https://aff-ads.stickywilds.com/"], :root a[href^="http://www.bitlord.me/share/"], :root .grid > .container > #aside-promotion, :root a[href^="http://www.babylon.com/welcome/index?affID"], :root a[onmousedown^="this.href='/wp-content/embed-ad-content/"], :root a[href^="//adbit.co/?a=Advertise&"], :root a[href^="http://popup.taboola.com/"], :root a[href^="https://fast-redirecting.com/"], :root a[href^="https://bluedelivery.pro/"], :root [href^="http://join.michelle-austin.com/"], :root a[href^="http://www.sexgangsters.com/?pid="], :root a[href^="http://www.amazon.co.uk/exec/obidos/external-search?"], :root a[href^="http://go.ad2up.com/"], :root a[href^="https://badoinkvr.com/"], :root a[href*="/adServe/banners?"], :root a[href^="http://www.adxpansion.com"], :root a[href^="http://www.ragazzeinvendita.com/?rcid="], :root .plistaList > .itemLinkPET, :root a[href^="http://www.adultdvdempire.com/?partner_id="][href*="&utm_"], :root a[href^="http://www.adbrite.com/mb/commerce/purchase_form.php?"], :root a[href^="http://www.TwinPlan.com/AF_"], :root a[href^="https://www.googleadservices.com/pagead/aclk?"], :root a[href^="http://www.1clickdownloader.com/"], :root a[href^="http://www.123-reg.co.uk/affiliate2.cgi"], :root div[itemtype="http://www.schema.org/WPAdBlock"], :root a[href^="http://wopertific.info/"], :root a[href^="http://bodelen.com/"], :root a[href^="http://wgpartner.com/"], :root a[href^="http://web.adblade.com/"], :root a[href^="https://go.onclasrv.com/"], :root a[href^="http://wct.link/"], :root a[href^="http://us.marketgid.com"], :root a[href^="http://ul.to/ref/"], :root a[href^="http://ucam.xxx/?utm_"], :root a[href^="http://traffic.tc-clicks.com/"], :root a[href^="http://www.liutilities.com/"], :root a[href^="http://www.dl-provider.com/search/"], :root a[href^="http://tc.tradetracker.net/"] > img, :root a[href^="http://tracking.deltamediallc.com/"], :root div[aria-label="Ads"], :root a[href^="http://axdsz.pro/"], :root a[href^="https://go.ebrokerserve.com/"], :root a[href^="http://galleries.securewebsiteaccess.com/"], :root a[href^="http://stateresolver.link/"], :root a[href^="http://sharesuper.info/"], :root a[href^="https://awecrptjmp.com/"], :root a[href^="http://server.cpmstar.com/click.aspx?poolid="], :root a[href^="http://see.kmisln.com/"], :root a[href^="//db52cc91beabf7e8.com/"], :root a[href^="https://go.nordvpn.net/aff"] > img, :root a[href^="http://secure.vivid.com/track/"], :root a[href^="http://www.downloadthesefiles.com/"], :root a[href^="http://secure.cbdpure.com/aff/"], :root aside[id^="advads_ad_widget-"], :root a[href^="http://lp.ezdownloadpro.info/"], :root a[href^="http://uploaded.net/ref/"], :root a[href^="https://www.nutaku.net/signup/landing/"], :root a[href^="http://s9kkremkr0.com/"], :root a[href^="http://azmobilestore.co/"], :root a[href^="http://s5prou7ulr.com/"], :root a[href^="https://easygamepromo.com/ef/custom_affiliate/"], :root a[href^="http://record.betsafe.com/"], :root a[href*="a2g-secure.com"], :root a[href^="https://iqbroker.com/"][href*="?aff="], :root a[href^="http://buysellads.com/"], :root a[href^="http://reallygoodlink.freehookupaffair.com/"], :root a[href^="https://bnsjb1ab1e.com/"], :root a[href^="//oardilin.com/"], :root a[href^="http://pwrads.net/"], :root a[href^="http://promos.bwin.com/"], :root a[data-redirect^="https://paid.outbrain.com/network/redir?"], :root a[href^="http://play4k.co/"], :root a[href*="//ezofferz.com/"], :root a[href^="https://dltags.com/"], :root a[href^="http://onclickads.net/"], :root a[href^="http://n.admagnet.net/"], :root a[href^="//awejmp.com/"], :root a[href^="http://mob1ledev1ces.com/"], :root a[href^="http://mmo123.co/"], :root a[href^="http://media.paddypower.com/redirect.aspx?"], :root a[href^="https://fileboom.me/pr/"], :root a[href^="http://marketgid.com"], :root a[href^="http://liversely.net/"], :root div[id^="drudge-column-ads-"], :root a[href^="http://tour.mrskin.com/"], :root [src^="/Redirect.a2b?"], :root a[href^="http://linksnappy.com/?ref="], :root a[data-redirect^="http://click.plista.com/pets"], :root .section-subheader > .section-hotel-prices-header, :root a[href^="http://landingpagegenius.com/"], :root a[href^="http://keep2share.cc/pr/"], :root [src*="https://cdn.cloudimagesb.com/"], :root a[href^="http://k2s.cc/pr/"], :root a[href^="http://k2s.cc/code/"], :root a[href^="http://www.revenuehits.com/"], :root a[href^="http://install.securewebsiteaccess.com/"], :root .widget-pane-section-result[data-result-ad-type], :root a[href^="http://imads.integral-marketing.com/"], :root div[id^="crt-"][style], :root a[href^="http://igromir.info/"], :root a[href^="https://intrev.co/"], :root a[href^="http://https://www.get-express-vpn.com/offer/"], :root a[href^="http://goldmoney.com/?gmrefcode="], :root a[href*=".purple6401.com/"], :root a[href^="https://oackoubs.com/"], :root div[id^="advads-"], :root a[href^="http://www.myfreecams.com/?co_id="][href*="&track="], :root a[href^="//00ae8b5a9c1d597.com/"], :root a[href^="http://go.fpmarkets.com/"], :root a[href^="http://freesoftwarelive.com/"], :root a[href^="https://www.im88trk.com/"], :root a[href^="http://ffxitrack.com/"], :root a[href^="https://windscribe.com/promo/"], :root a[href^="http://farm.plista.com/pets"], :root a[href^="http://ethfw0370q.com/"], :root #resultspanel > #topads, :root a[href^="http://admrotate.iplayer.org/"], :root a[href^="http://espn.zlbu.net/"], :root [id^="bunyad_ads_"], :root a[href^="http://elitefuckbook.com/"], :root a[href^="http://eclkmpsa.com/"], :root a[href^="http://earandmarketing.com/"], :root div[class^="hp-ad-rect-"], :root a[href^="http://dwn.pushtraffic.net/"], :root a[href^="http://www.friendlyadvertisements.com/"], :root a[href^="http://www.firstload.com/affiliate/"], :root a[href^="http://duckcash.eu/"], :root a[href^="http://czotra-32.com/"], :root div[class^="StickyHeroAdWrapper-"], :root a[href^="http://ads.betfair.com/redirect.aspx?"], :root a[href^="http://cwcams.com/landing/click/"], :root a[href^="http://codec.codecm.com/"], :root a[href^="https://paid.outbrain.com/network/redir?"], :root a[href^="http://www.downloadplayer1.com/"], :root a[href^="http://clicks.binarypromos.com/"], :root div[data-test-id="AdBannerWrapper"], :root div[class^="AdCard_"], :root a[href^="http://www.urmediazone.com/signup"], :root a[href^="http://click.plista.com/pets"], :root a[href^="http://chaturbate.com/affiliates/"], :root [href^="https://secure.bmtmicro.com/servlets/"], :root a[href^="http://amzn.to/"] > img[src^="data"], :root a[href^="http://bs.serving-sys.com/"], :root a[href^="http://cpaway.afftrack.com/"], :root a[href^="http://cdn.adsrvmedia.net/"], :root a[href^="http://casino-x.com/?partner"], :root a[href^="https://meet-sexhere.com/"], :root a[href^="http://record.sportsbetaffiliates.com.au/"], :root a[href^="http://campeeks.com/"][href*="&utm_"], :root a[href*="3wr110.xyz/"], :root a[href^="http://d2.zedo.com/"], :root a[href*=".mfroute.com/"], :root #content > #center > .dose > .dosesingle, :root a[href^="http://campaign.bharatmatrimony.com/track/"], :root div[class^="index_displayAd_"], :root a[href^="https://s.zlink2.com/"], :root a[href^="http://adultgames.xxx/"], :root a[href^="http://semi-cod.com/clicks/"], :root a[href^="http://campaign.bharatmatrimony.com/cbstrack/"], :root a[href^="http://istri.it/?"], :root a[href^="https://gamescarousel.com/"], :root a[href^="http://yads.zedo.com/"], :root a[href^="https://bullads.net/get/"], :root a[href^="http://down1oads.com/"], :root td[valign="top"] > .mainmenu[style="padding:10px 0 0 0 !important;"], :root a[href^="https://redsittalvetoft.pro/"], :root a[href^="http://feedads.g.doubleclick.net/"], :root div[id^="vuukle-ad-"], :root a[href^="http://betahit.click/"], :root a[href^="http://bestorican.com/"], :root a[href^="http://bcp.crwdcntrl.net/"], :root a[href^="http://bc.vc/?r="], :root a[href^="http://www.fbooksluts.com/"], :root a[href^="http://www.cdjapan.co.jp/aff/click.cgi/"], :root a[href^="http://intent.bingads.com/"], :root a[href*="//ridingintractable.com/"], :root a[href^="http://c.actiondesk.com/"], :root a[href^="http://affiliate.glbtracker.com/"], :root a[href^="https://transfer.xe.com/signup/track/redirect?"], :root a[href^="http://anonymous-net.com/"], :root aside[itemtype="https://schema.org/WPAdBlock"], :root a[href^="https://watchmygirlfriend.tv/"], :root a[href^="https://ovb.im/"], :root a[href^="http://hotcandyland.com/partner/"], :root a[href^="http://affiliates.thrixxx.com/"], :root a[href^="http://affiliate.coral.co.uk/processing/"], :root a[href^="http://aff.ironsocket.com/"], :root span[title="Ads by Google"], :root a[href^="http://finaljuyu.com/"], :root a[href^="http://adtrackone.eu/"], :root a[href^="http://adsrv.keycaptcha.com"], :root a[href^="http://adserver.adreactor.com/"], :root a[href^="//go.onclasrv.com/"], :root .GHOFUQ5BG2 > .GHOFUQ5BF2 > .GHOFUQ5BG5, :root #\5f _mom_ad_2, :root a[href^="http://ads.sprintrade.com/"], :root a[href^="https://www.mrskin.com/tour"], :root a[href^="http://adserver.adtech.de/"], :root a[href^="http://reallygoodlink.extremefreegames.com/"], :root a[href^="http://adlev.neodatagroup.com/"], :root [href^="http://homemoviestube.com/"], :root a[href^="http://ad.doubleclick.net/"], :root a[href^="https://k2s.cc/pr/"], :root a[href^="http://ad.au.doubleclick.net/"], :root a[href*=".directtl.xyz/"], :root a[href^="http://websitedhoome.com/"], :root a[href^="https://clickadilla.com/"], :root .ob_container .item-container-obpd, :root a[href^="http://www.adskeeper.co.uk/"], :root a[href^="https://understandsolar.com/signup/?lead_source="][href*="&tracking_code="], :root a[href^="http://ad-emea.doubleclick.net/"], :root a[href^="http://srvpub.com/"], :root [data-dynamic-ads], :root a[href^="http://a.adquantix.com/"], :root a[href^="http://NowDownloadAll.com"], :root a[href^="http://adtrack123.pl/"], :root ad-desktop-sidebar, :root [id*="MGWrap"], :root a[href^="http://9amq5z4y1y.com/"], :root a[href^="http://dftrck.com/"], :root [lazy-ad="top_banner"], :root a[href^="http://360ads.go2cloud.org/"], :root a[href^="http://1phads.com/"], :root a[href^="https://ismlks.com/"], :root a[href^="//zenhppyad.com/"], :root a[href^="//www.pd-news.com/"], :root div[id^="ads250_250-widget"], :root [href^="https://go.astutelinks.com/"], :root [href*=".doubleclick-net.com"], :root a[href^="//www.mgid.com/"], :root a[href^="http://lp.ncdownloader.com/"], :root a[href^="//pubads.g.doubleclick.net/"], :root [src^="//adtorio.com/"], :root a[href^="http://refer.webhostingbuzz.com/"], :root a[onmousedown^="this.href='http://staffpicks.outbrain.com/network/redir?"][target="_blank"], :root a[href^="//nlkdom.com/"], :root a[href^="//medleyads.com/spot/"], :root a[href^="https://trappist-1d.com/"], :root a[href^="http://go.247traffic.com/"], :root a[href^="https://bestcond1tions.com/"], :root a[href^="http://greensmoke.com/"], :root a[href^="http://searchtabnew.com/"], :root a[href*="?adlivk="][href*="&refer="], :root a[href^="//look.djfiln.com/"], :root [href^="https://mylead.global/stl/"] > img, :root a[href^="https://ilovemyfreedoms.com/"][href*="?affiliate_id="], :root [href*=".afftracks.online/"], :root div[class^="Component-dfp-"], :root a[href^="//healthaffiliate.center/"], :root [onclick*="content.ad/"], :root a[href^="https://clixtrac.com/"], :root a[href^="https://look.utndln.com/"], :root #tads[aria-label], :root a[href^="http://googleads.g.doubleclick.net/pcs/click"], :root a[href^="//5e1fcb75b6d662d.com/"], :root a[href^="//4f6b2af479d337cf.com/"], :root a[href^="//4c7og3qcob.com/"], :root a[href^="http://tezfiles.com/pr/"], :root #rhs_block > ol > .rhsvw > .kp-blk > .xpdopen > ._OKe > ol > ._DJe > .luhb-div, :root [href^="http://join.ts-dominopresley.com/"], :root a[href^=".vddfe.club/"], :root [href^="/ucdownloader.php"], :root a[href^="https://awejmp.com/"], :root [href*="//go2page.net"], :root a[href^=" http://www.sex.com/"][href*="&utm_"], :root .GPMV2XEDA2 > .GPMV2XEDP1 > .GPMV2XEDJBB, :root [href^="https://mysbitl.com"], :root a[href*="onclkds."], :root a[href^="https://adclick.g.doubleclick.net/"], :root a[href*=".intab.fun/"], :root a[href*="get-express-vpn.xyz"], :root a[href^="https://prf.hn/click/"][href*="/creativeref:"] > img, :root a[href^="http://www.adultempire.com/unlimited/promo?"][href*="&partner_id="], :root a[href*="=adscript"], :root #mn #center_col > div > h2.spon:first-child, :root a[href*="=Adtracker"], :root a[href^="http://4c7og3qcob.com/"], :root a[href^="https://members.linkifier.com/public/affiliateLanding?refCode="], :root a[href^="https://jmp.awempire.com/"], :root a[href^="http://ad-apac.doubleclick.net/"], :root c-wiz[jsrenderer="YnuqN"] > div > div > .Rn1jbe, :root a[href*="/servlet/click/zone?"], :root a[href^="http://track.trkvluum.com/"], :root a[href^="http://affiliates.lifeselector.com/"], :root #atvcap + #tvcap > .mnr-c > .commercial-unit-mobile-top, :root a[href*="/adrotate-out.php?"], :root a[href^="https://www.chngtrack.com/"], :root a[href*="=exoclick"], :root div[id^="ad-position-"], :root a[data-redirect^="this.href='http://paid.outbrain.com/network/redir?"], :root a[href^="http://liversely.com/"], :root a[href^="http://www.firstclass-download.com/"], :root a[href*="//bongacams7.com/track?"], :root a[href*=".ad-center.com/"], :root a[href*=".udncoeln.com/"], :root a[href*=".surfmdia.com/"], :root .ob-widget > .ob-first.ob-widget-section, :root a[href*=".smartadserver.com"], :root a[href*=".revimedia.com/"], :root a[href^="https://farm.plista.com/pets"], :root a[href^="http://trk.mdrtrck.com/"], :root a[href^="https://adsrv4k.com/"], :root a[href*=".red90121.com/"], :root a[href^="https://tm-offers.gamingadult.com/"], :root a[href^="http://www.greenmangaming.com/?tap_a="], :root a[href*=".opskln.com/"], :root a[href^="http://z1.zedo.com/"], :root a[href*=".irtyc.com/"], :root div[id^="div_ad_stack_"], :root a[href*=".ichlnk.com/"], :root div[id^="yandex_ad"], :root a[href^="https://www.pornhat.com/"][rel="nofollow"], :root a[href^="https://www.hotgirls4fuck.com/"], :root a[href^="http://y1jxiqds7v.com/"], :root [href^="https://online-protection-now.com/"], :root a[href*=".frtyl.com/"], :root a[href^="http://api.content.ad/"], :root a[href*=".clkcln.com/"], :root a[href^="http://click.payserve.com/"], :root iframe[src^="http://ad.yieldmanager.com/"], :root a[href^="https://porntubemate.com/"], :root a[href^="http://pubads.g.doubleclick.net/"], :root a[href^="http://serve.williamhill.com/promoRedirect?"], :root a[href*="n47adshostnet.com/"], :root a[href*=".cfm?fp="][href*="&prvtof="], :root a[data-widget-outbrain-redirect^="http://paid.outbrain.com/network/redir?"], :root a[href^="http://join3.bannedsextapes.com/track/"], :root [href^="http://join.shemalesfromhell.com/"], :root #topstuff > #tads, :root a[href*=".bang.com/"][href*="&aff="], :root a[href*=".allsports4you.club"], :root .mw > #rcnt > #center_col > #taw > #tvcap > .c, :root a[href^="https://playuhd.host/"], :root [href^="https://go.affiliatexe.com/"], :root a[href^="http://mgid.com/"], :root a[href*=".adsrv.eacdn.com/"] > img, :root a[href^="https://m.do.co/c/"] > img, :root a[href^="https://spygasm.com/track?"], :root a[href^="http://cdn3.adexprts.com/"], :root [href*=".ltroute.com/"], :root div[class*="margin-Advert"], :root #tads + div + .c, :root a[href^="//jsmptjmp.com/"], :root .commercial-unit-mobile-top .jackpot-main-content-container > .UpgKEd + .nZZLFc > .vci, :root a[href^="https://financeads.net/tc.php?"], :root #ssmiwdiv[jsdisplay], :root a[href*=".adform.net/"], :root a[href*=".axdsz.pro/"], :root a[href^="http://a63t9o1azf.com/"], :root [href*="//etracking.pro"], :root a[href^="http://www.fonts.com/BannerScript/"], :root a[href$="/vghd.shtml"], :root [href^="https://join.playboyplus.com/track/"], :root .GB3L-QEDGY .GB3L-QEDF- > .GB3L-QEDE-, :root a[data-url^="http://paid.outbrain.com/network/redir?"] + .author, :root a[href^="http://extra.bet365.com/"][href*="?affiliate="], :root a[href^="http://t.wowtrk.com/"], :root a[href^="//syndication.dynsrvtbg.com/splash.php?"], :root [href^="https://www.reimageplus.com/"], :root a[href^="http://affiliates.score-affiliates.com/"], :root .icons-rss-feed + .icons-rss-feed div[class$="_item"], :root a[data-oburl^="https://paid.outbrain.com/network/redir?"], :root a[href^="http://refpa.top/"], :root a[data-oburl^="http://paid.outbrain.com/network/redir?"], :root div[id^="cns_ads_"], :root a[data-obtrack^="http://paid.outbrain.com/network/redir?"], :root a[href^="https://prf.hn/click/"][href*="/adref:"] > img, :root a[href^="http://enter.anabolic.com/track/"], :root a[data-nvp*="'trafficUrl':'https://paid.outbrain.com/network/redir?"], :root a[href^="http://www.badoink.com/go.php?"], :root a[class="RBAd"], :root [src^="http://api.lanistaads.com/ServeAd?"], :root a[href^="http://banners.victor.com/processing/"], :root a[href^="http://www.seekbang.com/cs/"], :root a[href^="http://syndication.exoclick.com/"], :root a[href^="http://bluehost.com/track/"], :root a[href^="http://www.getyourguide.com/?partner_id="], :root [onclick^="window.open('https://www.brazzersnetwork.com/landing/"], :root [href*=".revrtb.com/"], :root .mod > .gws-local-promotions__border, :root a[href^="http://secure.hostgator.com/~affiliat/"], :root [onclick^="window.open('http://adultfriendfinder.com/search/"], :root [href^="http://join.rodneymoore.com/"], :root [id*="MarketGid"], :root .commercial-unit-desktop-rhs > .iKidV > .Ee92ae + .P2mpm + .hp3sk, :root div[class*="_browserAdOuterContainer_"], :root [name^="google_ads_iframe"], :root a[href^="http://fsoft4down.com/"], :root a[href*="ad2upapp.com/"], :root a[href*=".fwd28.com/"], :root [lazy-ad="leftbottom_banner"], :root dile-cookies-consent, :root .__ywvr .__y_item, :root [id^="div-gpt-ad"], :root a[href*="//bongacams.com/track?"], :root a[href^="https://www.bet365.com/"][href*="affiliate="], :root a[href^="https://mob1ledev1ces.com/"], :root a[data-redirect^="http://paid.outbrain.com/network/redir?"], :root a[href^="https://promo-bc.com/"], :root a[href^="https://explore.findanswersnow.net/"], :root [id^="adframe_wrap_"], :root [id^="ad-wrap-"], :root a[href^="http://c.ketads.com/"], :root a[href^="http://6kup12tgxx.com/"], :root [href*="//trackout.business"], :root [href^="https://veepn.g2afse.com/"], :root div[jsdata*="CarouselPLA-"][data-id^="CarouselPLA-"], :root a[href^="https://go.trackitalltheway.com/"], :root [href^="https://track.fiverr.com/visit/"] > img, :root div[class^="adUnit_"], :root a[href^="https://deliver.tf2www.com/"], :root a[href^="http://spygasm.com/track?"], :root .ob_dual_right > .ob_ads_header ~ .odb_div, :root [src*="//www.dianomi.com/smartads.epl"], :root a[href*=".adk2x.com/"], :root [data-ad-manager-id], :root a[href^="https://refpaexhil.top/"], :root a[href^="https://mediaserver.entainpartners.com/renderBanner.do?"], :root a[href^="http://www.sex.com/pics/?utm_"], :root a[href^="http://vo2.qrlsx.com/"], :root a[href^="http://engine.newsmaxfeednetwork.com/"], :root [href^="https://stvkr.com/"], :root a[href^="http://www.roboform.com/php/land.php"], :root a[href^="http://refpaano.host/"], :root a[href*="/cmd.php?ad="], :root a[href^="http://online.ladbrokes.com/promoRedirect?"], :root a[href^="//mob1ledev1ces.com/"], :root [href^="https://go.4rabettraff.com/"], :root a[href^="https://freeadult.games/"], :root a[href^="https://www.popads.net/users/"], :root a[href^="http://www.advcashpro.com/aff/"], :root a[href^="http://adultfriendfinder.com/p/register.cgi?pid="], :root #flowplayer > div[style="position: absolute; width: 300px; height: 275px; left: 222.5px; top: 85px; z-index: 999;"], :root a[href^="http://download-performance.com/"], :root a[href^="http://www.on2url.com/app/adtrack.asp"], :root #\5f _nq__hh[style="display:block!important"], :root div[data-flt-ve="sponsored_search_ads"], :root [href^="https://affect3dnetwork.com/track/"], :root [href^="http://join.trannies-fuck.com/"], :root [href^="http://join.hardcoreshemalevideo.com/"], :root a[href^="http://ads2.williamhill.com/redirect.aspx?"], :root #center_col > #res > #topstuff + #search > div > #ires > #rso > #flun, :root a[href*=".xromp.com/landing/click/"], :root div[role="navigation"] + c-wiz > div > .kxhcC, :root a[href^="http://www.download-provider.org/"], :root a[href^="https://10dfkuvbdkfv.club/"], :root AD-TRIPLE-BOX, :root div[id^="ad_bigbox_"], :root #content > #right > .dose > .dosesingle, :root #assetsListings[style="display: block;"], :root a[href^="http://9nl.es/"], :root a[href^="http://www.streamtunerhd.com/signup?"], :root [id*="ScriptRoot"], :root a[href^="http://fileboom.me/pr/"], :root a[href*=".trust.zone"], :root [href^="https://shrugartisticelder.com"], :root a[href^="https://mmwebhandler.aff-online.com/"], :root [href^="https://r.kraken.com/"], :root .GFYY1SVD2 > .GFYY1SVC2 > .GFYY1SVF5, :root [href^="https://join3.bannedsextapes.com"], :root [href^="https://bulletprofitsmartlink.com/"], :root a[href^="http://www.pinkvisualpad.com/?revid="], :root a[href^="https://www.oneclickroot.com/?tap_a="] > img, :root DFP-AD, :root a[href^="//porngames.adult/?SID="], :root a[href^="https://www.friendlyduck.com/AF_"], :root [href^="http://advertisesimple.info/"], :root [onclick^="window.open('window.open('//delivery.trafficfabrik.com/"], :root a[href^="https://wantopticalfreelance.com/"], :root [href^="/ucdownload.php"], :root [href^="/admdownload.php"], :root a[href^="https://tracking.gitads.io/"], :root #rhs_block .xpdopen > ._OKe > div > .mod > ._yYf, :root a[href^="http://allaptair.club/"], :root a[href^="http://www.onwebcam.com/random?t_link="], :root a[href^="https://www.g4mz.com/"], :root a[href^="http://webgirlz.online/landing/"], :root [href*="cadsecs.com/"], :root a[href^="http://adserving.unibet.com/"], :root #rhs_block .mod > .luhb-div > div[data-async-type="updateHotelBookingModule"], :root a[href^="http://adclick.g.doubleclick.net/"], :root [href*="//mclick.net"], :root [href^="https://refpahrwzjlv.top/"], :root a[href*=".qertewrt.com/"], :root [href*="//doubleclick-net.com"], :root a[href^="http://deloplen.com/afu.php?zoneid="], :root [id^="google_ads_iframe"], :root a[href^="http://partners.etoro.com/"], :root [href*=".xiloy.site/"], :root a[href^="http://webtrackerplus.com/"], :root a[href^="https://ad13.adfarm1.adition.com/"], :root a[href^="http://clickandjoinyourgirl.com/"], :root [href*=".trackout.business"], :root [href*=".jetx.info/"], :root #center_col > #taw > #tvcap > .rscontainer, :root [href*=".securesafemembers.com"], :root a[href^="https://a.bestcontentfood.top/"], :root .commercial-unit-mobile-top .jackpot-main-content-container > .UpgKEd + .nZZLFc > div > .vci, :root a[href*="delivery.trafficfabrik.com"], :root #ads > .dose > .dosesingle, :root a[href^="http://www.gfrevenge.com/landing/"], :root a[href^="http://hpn.houzz.com/"], :root a[href^="http://45eijvhgj2.com/"], :root [href*=".mclick.net"], :root [href*=".grtya.com/"], :root .gbfwa > div[class$="_item"], :root a[href^="https://goraps.com/"], :root [href*=".etracking.pro"], :root a[href^="http://adserver.adtechus.com/"], :root a[href^="http://vinfdv6b4j.com/"], :root [href^="https://dooloust.net/"], :root [href^="https://pulsetrack.biz/"], :root #main-content > [style="padding:10px 0 0 0 !important;"], :root #center_col > #resultStats + div[style="border:1px solid #dedede;margin-bottom:11px;padding:5px 7px 5px 6px"], :root a[href^="https://www.oboom.com/ad/"], :root [href*=".adcampo.com/"], :root a[href^="http://www.mobileandinternetadvertising.com/"], :root a[href^="https://track.themadtrcker.com/"], :root a[href^="http://hyperlinksecure.com/go/"], :root a[href^="http://get.slickvpn.com/"], :root [data-ad-module], :root a[href^="http://xads.zedo.com/"], :root a[href^="http://www.affiliates1128.com/processing/"], :root a[href^="http://c.jumia.io/"], :root [class^="div-gpt-ad"], :root [class*="auto-bottom-advertising-"], :root a[href^="https://keep2share.cc/pr/"], :root a[href^="https://msecure117.com/"], :root [href^="http://stvkr.com/"], :root [href^="http://raboninco.com/"], :root div[id^="taboola-stream-"], :root .ra[align="left"][width="30%"], :root [class*="-slot_ad-placements-"], :root a[href^="https://track.52zxzh.com/"], :root a[href^="https://control.trafficfabrik.com/"], :root [href*=".go2page.net"], :root a[href^="http://hd-plugins.com/download/"], :root a[href^="//voyeurhit.com/cs/"], :root a[href^="http://www.afgr3.com/"], :root [ad-id^="googlead"], :root a[href^="http://go.mobisla.com/"], :root AFS-AD, :root div[id^="ad-gpt-"], :root a[href^="http://pan.adraccoon.com?"], :root [href^="http://www.star-clicks.com/"], :root #center_col > #\5f Emc, :root [class^="Ad-adContainer"], :root #center_col > div[style="font-size:14px;margin-right:0;min-height:5px"] > div[style="font-size:14px;margin:0 4px;padding:1px 5px;background:#fff8e7"], :root div[class$="_b-ad-main"], :root a[href*=".trck5.com/"], :root .trc_rbox_div .syndicatedItem, :root a[href^="http://www.streamate.com/exports/"], :root [href^="https://traffserve.com/"], :root [href*="maskip.co/"], :root a[href*="//bongacams2.com/track?"], :root div[id^="tms-ad-dfp-"], :root a[href^="https://trust.zone/go/r.php?RID="], :root a[href^="http://c43a3cd8f99413891.com/"], :root a[href^="https://www.firstload.com/affiliate/"], :root .trc_related_container div[data-item-syndicated="true"], :root a[href^="http://aflrm.com/"], :root div[id^="google_dfp_"], :root [href*="get-download.club/"], :root .section-result[data-result-ad-type], :root a[href^="https://track.totalav.com/"], :root [href^="https://wct.link/"], :root #mn div[style="position:relative"] > #center_col > div > ._dPg, :root .rhsvw[style="background-color:#fff;margin:0 0 14px;padding-bottom:1px;padding-top:1px;"], :root a[href^="http://www.coiwqe.site/"], :root iframe[id^="google_ads_frame"], :root a[href^="http://www.bet365.com/"][href*="affiliate="], :root a[href^="http://www.bluehost.com/track/"] > img, :root a[data-url^="http://paid.outbrain.com/network/redir?"], :root .ra[width="30%"][align="right"] + table[width="70%"][cellpadding="0"], :root [href^="https://reactads.engine.adglare.net/"], :root a[href*="//bongacams5.com/track?"], :root FBS-AD, :root a[href^="http://see-work.info/"], :root a[href^="http://www.wantstraffic.com/"], :root [href^="/ucmini.php"], :root .inlineNewsletterSubscription + .inlineNewsletterSubscription div[class$="_item"], :root a[href*=".orange2258.com/"], :root #taw > .med + div > #tvcap > .mnr-c:not(.qs-ic) > .commercial-unit-mobile-top, :root .plista_widget_belowArticleRelaunch_item[data-type="pet"], :root [href^="https://ptwmjmp.com/"], :root a[href*=".clksite.com/"], :root a[href^="http://www.webtrackerplus.com/"], :root .GJJKPX2N1 > .GJJKPX2M1 > .GJJKPX2P4, :root a[href^="https://ads.planetwin365affiliate.com/redirect.aspx?"], :root a[href^="http://g1.v.fwmrm.net/ad/"], :root [href^="https://www.xvbelink.com/"], :root a[href^="http://papi.mynativeplatform.com:80/pub2/"], :root LEADERBOARD-AD, :root #mn #center_col > div > h2.spon:first-child + ol:last-child, :root #center_col > #taw > #tvcap > .commercial-unit-desktop-top, :root .plistaList > .plista_widget_underArticle_item[data-type="pet"], :root a[href^="https://bngpt.com/"], :root a[href^="http://servicegetbook.net/"], :root [lazy-ad="lefttop_banner"], :root a[href^="http://www.mrskin.com/tour"], :root div[class^="sp-adslot-"], :root .jobs-information-call-to-action + .jobs-information-call-to-action div[class$="_item"], :root a[href^="https://go.hpyjmp.com/"] { display: none !important; }
+:root .vi-lb-placeholder[title="ADVERTISEMENT"], :root [href^="https://shiftnetwork.infusionsoft.com/go/"] > img, :root a[href^="http://www.menaon.com/installs/"], :root a[href^="http://taboola-"][href*="/redirect.php?app.type="], :root .mw > #rcnt > #center_col > #taw > .c, :root .commercial-unit-mobile-top > div[data-pla="1"], :root #rhs_block > script + .c._oc._Ve.rhsvw, :root #\5f _mom_ad_12, :root .__zinit .__y_item, :root .ch[onclick="ga(this,event)"], :root .commercial-unit-desktop-rhs > div[jscontroller="YD5eo"], :root .__ywl .__y_item, :root div[id^="div-ads-"], :root a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root a[href^="http://at.atwola.com/"], :root div[id^="banner-ad-"], :root #center_col > #resultStats + #tads, :root .__yinit .__y_item, :root a[href^="https://a.adtng.com/"], :root a[href^="http://static.fleshlight.com/images/banners/"], :root a[href^="https://www.adskeeper.co.uk/"], :root [href^="https://www.highrevenuecpm.com"], :root AMP-AD, :root a[href^="https://cpartner.bdswiss.com/"], :root iframe[src*="mellowads.com"], :root .__y_inner > .__y_item, :root a[href^="https://affiliate.geekbuying.com/gkbaffiliate.php?"], :root #cnt #center_col > #res > #topstuff > .ts, :root a[href^="https://landing.brazzersnetwork.com/"], :root #cnt #center_col > #taw > #tvcap > .c._oc._Lp, :root #rhswrapper > #rhssection[border="0"][bgcolor="#ffffff"], :root .Mpopup + #Mad > #MadZone, :root a[href^="http://ads.expekt.com/affiliates/"], :root #rhs_block > #mbEnd, :root a[id^="ads_banner_"], :root a[href^="https://porngames.adult/?SID="], :root a[href^="http://findersocket.com/"], :root div[data-adservice-param-tagid="contentad"], :root #MAIN.ShowTopic > .ad, :root a[href*="//promo-bc.com/track?"], :root .rc-cta[data-target], :root a[href^="https://dediseedbox.com/clients/aff.php?"], :root a[href^="http://track.afcpatrk.com/"], :root a[href^="http://databass.info/"], :root #rhs_block > .ts[cellspacing="0"][cellpadding="0"][style="padding:0"], :root a[href^="https://refpasrasw.world/"], :root [href*=".trackmstr.com"], :root a[href^="https://pubads.g.doubleclick.net/"], :root AD-SLOT, :root div[data-ad-underplayer], :root #mbEnd[cellspacing="0"][cellpadding="0"], :root a[href^="http://www.ducksnetwork.com/"], :root a[href^="http://3wr110.net/"], :root #header + #content > #left > #rlblock_left, :root .trc_rbox_div .syndicatedItemUB, :root #center_col > #main > .dfrd > .mnr-c > .c._oc._zs, :root a[href^="https://as.sexad.net/"], :root a[href^="//40ceexln7929.com/"], :root a[href$="/5-"][target="_blank"][rel="nofollow"], :root #center_col > #resultStats + div + #res + #tads, :root a[href^="http://go.xtbaffiliates.com/"], :root .nrelate .nr_partner, :root a[href^="//88d7b6aa44fb8eb.com/"], :root a[href^="http://www.afgr2.com/"], :root #mn div[style="position:relative"] > #center_col > ._Ak, :root .l-container > #fishtank, :root a[href^="https://uncensored3d.com/"], :root a[href^="http://adf.ly/?id="], :root a[href^="https://usenetxs.website/"], :root a[href^="http://pokershibes.com/index.php?ref="], :root [href^="https://rapidgator.net/article/premium/ref/"], :root #tadsb[aria-label], :root a[href^="https://deliver.ptgncdn.com/"], :root a[href^="http://latestdownloads.net/download.php?"], :root #center_col > #resultStats + #tads + #res + #tads, :root a[href^="https://www.sugarinstant.com/?partner_id="], :root a[href^="//z6naousb.com/"], :root [href^="https://join.girlsoutwest.com/"], :root [href^="https://www.hostg.xyz/aff_c"] > img, :root div[class^="Ad__container"], :root a[href^="http://adprovider.adlure.net/"], :root div[id^="adspot-"], :root #\5f _admvnlb_modal_container, :root [data-freestar-ad], :root a[href^="http://rs-stripe.wsj.com/stripe/redirect"], :root #main_col > #center_col div[style="font-size:14px;margin:0 4px;padding:1px 5px;background:#fff7ed"], :root a[href^="http://affiliates.pinnaclesports.com/processing/"], :root .vid-present > .van_vid_carousel__padding, :root a[href^="http://ad.yieldmanager.com/"], :root a[href^="http://www.plus500.com/?id="], :root #flowplayer > div[style="z-index: 208; position: absolute; width: 300px; height: 275px; left: 222.5px; top: 85px;"], :root [href^="http://join.shemale.xxx/"] { display: none !important; }</style><script async="" src="./Conhecendo o projeto_files/modules.e95f6e2deb67f1b24d8e.js.download" charset="utf-8"></script><style type="text/css">iframe#_hjRemoteVarsFrame {display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;}</style><script src="./Conhecendo o projeto_files/sha256.min.js.download"></script></head>
+
+
+
+
+<body class="darkmode">
+<script src="./Conhecendo o projeto_files/avatarOnError.1a705d33.js.download"></script>
+
+	
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+	<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TN542JN"
+				  height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+
+
+<section class="task  
+" data-allow-answer="true" data-task-section-exam="false" data-task-type="video" data-task-id="81275" data-author-id="819313" data-course-code="jdbc-dao-persistencia" data-section-name="Aplicação Desktop" data-section-id="11073" data-section-number="8" data-domain="cursos.alura.com.br" data-hasfeedbackanswer="false" data-url-prefix="/" data-already-seen-task="false">
+
+	<section class="task-body">
+		
+		
+
+
+
+
+
+
+
+
+
+
+<header class="task-body-header">
+    <div class="container">
+
+        
+            
+            <button title="" aria-label="" type="button" class="theatermode openMenu-button task-menu-button
+                    " id="menu-button-header">
+            </button>
+        
+
+        <h1 class="task-body-header-title">
+            
+            
+            <svg class="task-body-header-title-svg" aria-label="Atividade de Vídeo">
+                <use xlink:href="/assets/images/classPage/icon-menu-icons.svg#VIDEO"></use>
+            </svg>
+            <small>05</small>
+            <span class="task-body-header-title-text"> Conhecendo o projeto</span>
+        </h1>
+        
+            <div class="task-body-header-actions">
+                <a href="https://cursos.alura.com.br/course/jdbc-dao-persistencia/task/81275/next" aria-hidden="true" class="task-actions-button task-actions-button-next task-submit bootcamp-primary-button-theme" style="background-color: #2A7AE4">Próxima Atividade</a>
+            </div>
+        
+
+
+        
+            
+
+
+
+
+
+
+
+<div class="theater-video settings">
+	<button type="button" class="settings-button" aria-label="Configurações">
+		<svg class="settings-button-icon">
+			<use xlink:href="/assets/images/classPage/icon-menu-icons.svg#MENU_SETTINGS"></use>
+		</svg>
+	</button>
+	<div class="settings-box">
+		<ul class="settings-box-list">
+			
+				<li class="settings-box-item settings-box-item-darkmode">
+					<button class="dark-mode-action">
+						Modo noturno
+					</button>
+				</li>
+			
+			
+				
+				
+				
+					
+						<li class="settings-box-item settings-box-item-player">
+							<a class="video-problems" href="https://cursos.alura.com.br/video/diagnostic?taskId=81275" target="_blank">
+								Problemas com o vídeo?
+								<span hidden="">indisponível</span>
+							</a>
+						</li>
+						<li class="settings-box-item settings-box-item-shortcuts">
+							<button class="shortcuts-action">
+								Atalhos de teclado
+							</button>
+						</li>
+					
+					
+						
+							
+							
+								<li class="settings-box-item settings-box-item-suggestion"><a href="https://cursos.alura.com.br/suggestions/new/jdbc-dao-persistencia/81275/question">Sugerir alteração</a></li>
+							
+						
+					
+				
+				
+			
+			
+		</ul>
+		<span class="settings-box-title"></span>
+	</div>
+</div>
+
+        
+    </div>
+</header>
+		<div class="task-body__wrapper">
+			
+
+
+
+<section class="class-notes">
+    <div class="class-notes-content">
+        <h2 class="class-notes-title">Meu caderno do curso (beta)</h2>
+        <p class="class-notes-description">Este é seu caderno de anotações aqui na Alura. Todo o seu conteúdo fica vísivel apenas para você. Próximos passos para essa funcionalidade  no nosso<a href="https://suporte.alura.com.br/article/308-meu-caderno-como-funciona" class="class-notes-faq-link">FAQ</a></p>
+        <textarea name="text" id="courseNotebook-text" class="class-notes-text" cols="30" rows="10" maxlength="60000"></textarea>
+        <div class="class-notes-save-wrapper">
+            <span>
+                <p class="class-notes-saved-text" aria-hidden="true" style="display: none">Notas salvas</p>
+                <p class="class-notes-limit-text" aria-hidden="true" style="display: none">Não foi possível salvar! Limite de caracteres atingido ({max})!</p>
+            </span>
+            <span class="class-notes-save-button-wrapper">
+                <button class="class-notes-save-button" data-save-text="Salvar caderno" data-saving-text="Salvando">
+                   Salvar caderno</button>
+            </span>
+        </div>
+        <button class="class-notes-close-button"></button>
+    </div>
+</section>
+			<main class="task-body-main container" data-should-warn="false">
+				
+
+
+
+
+
+
+
+	
+	
+	
+	
+		
+
+
+
+
+
+
+
+
+    
+    
+        <section class="video" id="task-content">
+            <div class="container theater-mode">
+                
+
+
+
+
+
+
+
+<div class="video settings">
+	<button type="button" class="settings-button" aria-label="Configurações">
+		<svg class="settings-button-icon">
+			<use xlink:href="/assets/images/classPage/icon-menu-icons.svg#MENU_SETTINGS"></use>
+		</svg>
+	</button>
+	<div class="settings-box">
+		<ul class="settings-box-list">
+			
+				<li class="settings-box-item settings-box-item-darkmode">
+					<button class="dark-mode-action">
+						Modo noturno
+					</button>
+				</li>
+			
+			
+				
+				
+				
+					
+						<li class="settings-box-item settings-box-item-player">
+							<a class="video-problems" href="https://cursos.alura.com.br/video/diagnostic?taskId=81275" target="_blank">
+								Problemas com o vídeo?
+								<span hidden="">indisponível</span>
+							</a>
+						</li>
+						<li class="settings-box-item settings-box-item-shortcuts">
+							<button class="shortcuts-action">
+								Atalhos de teclado
+							</button>
+						</li>
+					
+					
+						
+							
+							
+								<li class="settings-box-item settings-box-item-suggestion"><a href="https://cursos.alura.com.br/suggestions/new/jdbc-dao-persistencia/81275/question">Sugerir alteração</a></li>
+							
+						
+					
+				
+				
+			
+			
+		</ul>
+		<span class="settings-box-title"></span>
+	</div>
+</div>
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="video" class="video-container">
+    <div id="video-container-data" data-max-playback-rate="" data-section-id="11073" data-course="jdbc-dao-persistencia" data-playback-rate="1.5" data-task-id="81275" data-quality="hd" data-course-id="1451" data-autoplay-type="NONE" data-autoplay-enabled="true" data-autoplay-menu-option-none="Desativado" data-autoplay-menu-option-videos="Vídeos" data-autoplay-menu-option-tasks="Atividades" data-autoplay-continue-text="Continuar" data-autoplay-cancel-text="Cancelar" data-autoplay-next-task-modal-title="Próxima Atividade" data-autoplay-still-here-modal-text="Você está aí? Clique no vídeo para continuar a aula" data-next-task-countdown-title="Em 8 segundos" data-gnarus-name="alura" data-error-message="&lt;p&gt;Não foi possível reproduzir o vídeo. Para ter um diagnóstico mais detalhado entre na &lt;a href=&quot;/video/diagnostic?taskId=81275&quot;&gt;página de diagnóstico de video&lt;/a&gt;&lt;/p&gt;" data-error-label="Não foi possível reproduzir o vídeo. Para ter um diagnóstico mais detalhado entre em /video/diagnostic?taskId=81275 diagnóstico de video">
+
+        
+    
+          <video-js id="video-player" class="video-js vjs-big-play-centered vjs-default-skin video-player-frame video-player vjs-fluid video-player-dimensions vjs-workinghover vjs-v7 vjs-controls-enabled vjs-has-started vjs-user-inactive vjs-paused vjs-ended" oncontextmenu="return false;" preload="auto" controlslist="nodownload" tabindex="-1" role="region" lang="pt-br" aria-label="Video Player"><video tabindex="-1" role="application" controlslist="nodownload" preload="auto" oncontextmenu="return false;" class="vjs-tech" id="video-player_html5_api" src="blob:https://cursos.alura.com.br/35307aae-f13f-4412-ad1e-610e1d912389"></video>
+           <div class="vjs-poster vjs-hidden" tabindex="-1" aria-disabled="false"></div><div class="vjs-text-track-display" aria-live="off" aria-atomic="true"><div style="position: absolute; inset: 0px; margin: 1.5%;"></div></div><div class="vjs-loading-spinner" dir="ltr"><span class="vjs-control-text">Video Player is loading.</span></div><button class="vjs-big-play-button" type="button" title="Play Video" aria-disabled="false"><span class="vjs-icon-placeholder" aria-hidden="true"></span><span class="vjs-control-text" aria-live="polite">Play Video</span></button><div class="vjs-control-bar" dir="ltr"><div class="vjs-progress-control vjs-control"><div tabindex="0" class="vjs-progress-holder vjs-slider vjs-slider-horizontal" role="slider" aria-valuenow="100.00" aria-valuemin="0" aria-valuemax="100" aria-label="Progress Bar" aria-valuetext="11:38 of 11:38"><div class="vjs-load-progress" style="width: 100%;"><span class="vjs-control-text"><span>Loaded</span>: <span class="vjs-control-text-loaded-percentage">100.00%</span></span><div data-start="609.6" data-end="698.666667" style="left: 87.25%; width: 12.75%;"></div></div><div class="vjs-mouse-display" style="left: 300px;"><div class="vjs-time-tooltip" aria-hidden="true" style="right: -21px;">04:52</div></div><div class="vjs-play-progress vjs-slider-bar" aria-hidden="true" style="width: 100%;"><div class="vjs-time-tooltip" aria-hidden="true" style="right: 0px;">11:38</div></div></div></div><button class="vjs-play-control vjs-control vjs-button vjs-paused vjs-ended" type="button" title="Replay" aria-disabled="false"><span class="vjs-icon-placeholder" aria-hidden="true"></span><span class="vjs-control-text" aria-live="polite">Replay</span></button><div class="vjs-volume-panel vjs-control vjs-volume-panel-horizontal"><button class="vjs-mute-control vjs-control vjs-button vjs-vol-2" type="button" title="Mute" aria-disabled="false"><span class="vjs-icon-placeholder" aria-hidden="true"></span><span class="vjs-control-text" aria-live="polite">Mute</span></button><div class="vjs-volume-control vjs-control vjs-volume-horizontal"><div tabindex="0" class="vjs-volume-bar vjs-slider-bar vjs-slider vjs-slider-horizontal" role="slider" aria-valuenow="66" aria-valuemin="0" aria-valuemax="100" aria-label="Volume Level" aria-live="polite" aria-valuetext="66%"><div class="vjs-mouse-display"><div class="vjs-volume-tooltip" aria-hidden="true"></div></div><div class="vjs-volume-level" style="width: 65.85%;"><span class="vjs-control-text"></span></div></div></div></div><div class="vjs-current-time vjs-time-control vjs-control"><span class="vjs-control-text" role="presentation">Current TimeÂ </span><span class="vjs-current-time-display" aria-live="off" role="presentation">11:38</span></div><div class="vjs-time-control vjs-time-divider" aria-hidden="true"><div><span>/</span></div></div><div class="vjs-duration vjs-time-control vjs-control"><span class="vjs-control-text" role="presentation">DurationÂ </span><span class="vjs-duration-display" aria-live="off" role="presentation">11:38</span></div><div class="vjs-menu-button vjs-menu-button-popup vjs-control vjs-button"><button class="vjs-autoplay-menu vjs-button" type="button" aria-disabled="false" aria-haspopup="true" aria-expanded="false"><span class="vjs-icon-placeholder" aria-hidden="true"></span><span class="vjs-control-text" aria-live="polite"></span></button><div class="vjs-menu"><ul class="vjs-menu-content" role="menu"><li class="vjs-menu-item vjs-selected" tabindex="-1" role="menuitemradio" aria-disabled="false" aria-checked="true"><span class="vjs-menu-item-text">Desativado</span><span class="vjs-control-text" aria-live="polite">, selected</span></li><li class="vjs-menu-item" tabindex="-1" role="menuitemradio" aria-disabled="false" aria-checked="false"><span class="vjs-menu-item-text">Vídeos</span><span class="vjs-control-text" aria-live="polite"></span></li><li class="vjs-menu-item" tabindex="-1" role="menuitemradio" aria-disabled="false" aria-checked="false"><span class="vjs-menu-item-text">Atividades</span><span class="vjs-control-text" aria-live="polite"></span></li></ul></div></div><div class="vjs-playback-rate vjs-menu-button vjs-menu-button-popup vjs-control vjs-button"><div class="vjs-playback-rate-value" id="vjs-playback-rate-value-label-video-player_component_317">1.5x</div><button class="vjs-playback-rate vjs-menu-button vjs-menu-button-popup vjs-button" type="button" aria-disabled="false" title="Playback Rate" aria-haspopup="true" aria-expanded="false" aria-describedby="vjs-playback-rate-value-label-video-player_component_317"><span class="vjs-icon-placeholder" aria-hidden="true"></span><span class="vjs-control-text" aria-live="polite">Playback Rate</span></button><div class="vjs-menu"><ul class="vjs-menu-content" role="menu"><li class="vjs-menu-item" tabindex="-1" role="menuitemradio" aria-disabled="false" aria-checked="false"><span class="vjs-menu-item-text">3x</span><span class="vjs-control-text" aria-live="polite"></span></li><li class="vjs-menu-item" tabindex="-1" role="menuitemradio" aria-disabled="false" aria-checked="false"><span class="vjs-menu-item-text">2.5x</span><span class="vjs-control-text" aria-live="polite"></span></li><li class="vjs-menu-item" tabindex="-1" role="menuitemradio" aria-disabled="false" aria-checked="false"><span class="vjs-menu-item-text">2x</span><span class="vjs-control-text" aria-live="polite"></span></li><li class="vjs-menu-item" tabindex="-1" role="menuitemradio" aria-disabled="false" aria-checked="false"><span class="vjs-menu-item-text">1.75x</span><span class="vjs-control-text" aria-live="polite"></span></li><li class="vjs-menu-item vjs-selected" tabindex="-1" role="menuitemradio" aria-disabled="false" aria-checked="true"><span class="vjs-menu-item-text">1.5x</span><span class="vjs-control-text" aria-live="polite">, selected</span></li><li class="vjs-menu-item" tabindex="-1" role="menuitemradio" aria-disabled="false" aria-checked="false"><span class="vjs-menu-item-text">1.25x</span><span class="vjs-control-text" aria-live="polite"></span></li><li class="vjs-menu-item" tabindex="-1" role="menuitemradio" aria-disabled="false" aria-checked="false"><span class="vjs-menu-item-text">1x</span><span class="vjs-control-text" aria-live="polite"></span></li><li class="vjs-menu-item" tabindex="-1" role="menuitemradio" aria-disabled="false" aria-checked="false"><span class="vjs-menu-item-text">0.75x</span><span class="vjs-control-text" aria-live="polite"></span></li><li class="vjs-menu-item" tabindex="-1" role="menuitemradio" aria-disabled="false" aria-checked="false"><span class="vjs-menu-item-text">0.5x</span><span class="vjs-control-text" aria-live="polite"></span></li><li class="vjs-menu-item" tabindex="-1" role="menuitemradio" aria-disabled="false" aria-checked="false"><span class="vjs-menu-item-text">0.25x</span><span class="vjs-control-text" aria-live="polite"></span></li></ul></div></div><div class="vjs-quality-selector vjs-menu-button vjs-menu-button-popup vjs-control vjs-button"><button class="vjs-menu-button vjs-menu-button-popup vjs-button" type="button" aria-disabled="false" aria-haspopup="true" aria-expanded="false" title="Open quality selector menu"><span class="vjs-icon-placeholder" aria-hidden="true"></span><span class="vjs-control-text" aria-live="polite">Open quality selector menu</span></button><div class="vjs-menu"><ul class="vjs-menu-content" role="menu"><li class="vjs-menu-item vjs-selected" tabindex="-1" role="menuitemradio" aria-disabled="false" aria-checked="true"><span class="vjs-menu-item-text">hd</span><span class="vjs-control-text" aria-live="polite">, selected</span></li><li class="vjs-menu-item" tabindex="-1" role="menuitemradio" aria-disabled="false" aria-checked="false"><span class="vjs-menu-item-text">sd</span><span class="vjs-control-text" aria-live="polite"></span></li></ul></div></div><button class="vjs-picture-in-picture-control vjs-control vjs-button" type="button" title="Picture-in-Picture" aria-disabled="false"><span class="vjs-icon-placeholder" aria-hidden="true"></span><span class="vjs-control-text" aria-live="polite">Picture-in-Picture</span></button><button class="vjs-control vjs-button theater-mode-player-icon" type="button" aria-disabled="false" title="Open Theater Mode"><span class="vjs-icon-placeholder" aria-hidden="true"></span><span class="vjs-control-text" aria-live="polite">Open Theater Mode</span></button><button class="vjs-fullscreen-control vjs-control vjs-button" type="button" title="Fullscreen" aria-disabled="false"><span class="vjs-icon-placeholder" aria-hidden="true"></span><span class="vjs-control-text" aria-live="polite">Fullscreen</span></button></div><div class="vjs-error-display vjs-modal-dialog vjs-hidden " tabindex="-1" aria-describedby="video-player_component_540_description" aria-hidden="true" aria-label="Modal Window" role="dialog"><p class="vjs-modal-dialog-description vjs-control-text" id="video-player_component_540_description">This is a modal window.</p><div class="vjs-modal-dialog-content" role="document"></div></div><div class="vjs-modal-dialog vjs-hidden  vjs-text-track-settings" tabindex="-1" aria-describedby="video-player_component_546_description" aria-hidden="true" aria-label="Caption Settings Dialog" role="dialog"><p class="vjs-modal-dialog-description vjs-control-text" id="video-player_component_546_description">Beginning of dialog window. Escape will cancel and close the window.</p><div class="vjs-modal-dialog-content" role="document"><div class="vjs-track-settings-colors"><fieldset class="vjs-fg-color vjs-track-setting"><legend id="captions-text-legend-video-player_component_546">Text</legend><label id="captions-foreground-color-video-player_component_546" class="vjs-label">Color</label><select aria-labelledby="captions-text-legend-video-player_component_546 captions-foreground-color-video-player_component_546"><option id="captions-foreground-color-video-player_component_546-White" value="#FFF" aria-labelledby="captions-text-legend-video-player_component_546 captions-foreground-color-video-player_component_546 captions-foreground-color-video-player_component_546-White">White</option><option id="captions-foreground-color-video-player_component_546-Black" value="#000" aria-labelledby="captions-text-legend-video-player_component_546 captions-foreground-color-video-player_component_546 captions-foreground-color-video-player_component_546-Black">Black</option><option id="captions-foreground-color-video-player_component_546-Red" value="#F00" aria-labelledby="captions-text-legend-video-player_component_546 captions-foreground-color-video-player_component_546 captions-foreground-color-video-player_component_546-Red">Red</option><option id="captions-foreground-color-video-player_component_546-Green" value="#0F0" aria-labelledby="captions-text-legend-video-player_component_546 captions-foreground-color-video-player_component_546 captions-foreground-color-video-player_component_546-Green">Green</option><option id="captions-foreground-color-video-player_component_546-Blue" value="#00F" aria-labelledby="captions-text-legend-video-player_component_546 captions-foreground-color-video-player_component_546 captions-foreground-color-video-player_component_546-Blue">Blue</option><option id="captions-foreground-color-video-player_component_546-Yellow" value="#FF0" aria-labelledby="captions-text-legend-video-player_component_546 captions-foreground-color-video-player_component_546 captions-foreground-color-video-player_component_546-Yellow">Yellow</option><option id="captions-foreground-color-video-player_component_546-Magenta" value="#F0F" aria-labelledby="captions-text-legend-video-player_component_546 captions-foreground-color-video-player_component_546 captions-foreground-color-video-player_component_546-Magenta">Magenta</option><option id="captions-foreground-color-video-player_component_546-Cyan" value="#0FF" aria-labelledby="captions-text-legend-video-player_component_546 captions-foreground-color-video-player_component_546 captions-foreground-color-video-player_component_546-Cyan">Cyan</option></select><span class="vjs-text-opacity vjs-opacity"><label id="captions-foreground-opacity-video-player_component_546" class="vjs-label">Transparency</label><select aria-labelledby="captions-text-legend-video-player_component_546 captions-foreground-opacity-video-player_component_546"><option id="captions-foreground-opacity-video-player_component_546-Opaque" value="1" aria-labelledby="captions-text-legend-video-player_component_546 captions-foreground-opacity-video-player_component_546 captions-foreground-opacity-video-player_component_546-Opaque">Opaque</option><option id="captions-foreground-opacity-video-player_component_546-SemiTransparent" value="0.5" aria-labelledby="captions-text-legend-video-player_component_546 captions-foreground-opacity-video-player_component_546 captions-foreground-opacity-video-player_component_546-SemiTransparent">Semi-Transparent</option></select></span></fieldset><fieldset class="vjs-bg-color vjs-track-setting"><legend id="captions-background-video-player_component_546">Background</legend><label id="captions-background-color-video-player_component_546" class="vjs-label">Color</label><select aria-labelledby="captions-background-video-player_component_546 captions-background-color-video-player_component_546"><option id="captions-background-color-video-player_component_546-Black" value="#000" aria-labelledby="captions-background-video-player_component_546 captions-background-color-video-player_component_546 captions-background-color-video-player_component_546-Black">Black</option><option id="captions-background-color-video-player_component_546-White" value="#FFF" aria-labelledby="captions-background-video-player_component_546 captions-background-color-video-player_component_546 captions-background-color-video-player_component_546-White">White</option><option id="captions-background-color-video-player_component_546-Red" value="#F00" aria-labelledby="captions-background-video-player_component_546 captions-background-color-video-player_component_546 captions-background-color-video-player_component_546-Red">Red</option><option id="captions-background-color-video-player_component_546-Green" value="#0F0" aria-labelledby="captions-background-video-player_component_546 captions-background-color-video-player_component_546 captions-background-color-video-player_component_546-Green">Green</option><option id="captions-background-color-video-player_component_546-Blue" value="#00F" aria-labelledby="captions-background-video-player_component_546 captions-background-color-video-player_component_546 captions-background-color-video-player_component_546-Blue">Blue</option><option id="captions-background-color-video-player_component_546-Yellow" value="#FF0" aria-labelledby="captions-background-video-player_component_546 captions-background-color-video-player_component_546 captions-background-color-video-player_component_546-Yellow">Yellow</option><option id="captions-background-color-video-player_component_546-Magenta" value="#F0F" aria-labelledby="captions-background-video-player_component_546 captions-background-color-video-player_component_546 captions-background-color-video-player_component_546-Magenta">Magenta</option><option id="captions-background-color-video-player_component_546-Cyan" value="#0FF" aria-labelledby="captions-background-video-player_component_546 captions-background-color-video-player_component_546 captions-background-color-video-player_component_546-Cyan">Cyan</option></select><span class="vjs-bg-opacity vjs-opacity"><label id="captions-background-opacity-video-player_component_546" class="vjs-label">Transparency</label><select aria-labelledby="captions-background-video-player_component_546 captions-background-opacity-video-player_component_546"><option id="captions-background-opacity-video-player_component_546-Opaque" value="1" aria-labelledby="captions-background-video-player_component_546 captions-background-opacity-video-player_component_546 captions-background-opacity-video-player_component_546-Opaque">Opaque</option><option id="captions-background-opacity-video-player_component_546-SemiTransparent" value="0.5" aria-labelledby="captions-background-video-player_component_546 captions-background-opacity-video-player_component_546 captions-background-opacity-video-player_component_546-SemiTransparent">Semi-Transparent</option><option id="captions-background-opacity-video-player_component_546-Transparent" value="0" aria-labelledby="captions-background-video-player_component_546 captions-background-opacity-video-player_component_546 captions-background-opacity-video-player_component_546-Transparent">Transparent</option></select></span></fieldset><fieldset class="vjs-window-color vjs-track-setting"><legend id="captions-window-video-player_component_546">Window</legend><label id="captions-window-color-video-player_component_546" class="vjs-label">Color</label><select aria-labelledby="captions-window-video-player_component_546 captions-window-color-video-player_component_546"><option id="captions-window-color-video-player_component_546-Black" value="#000" aria-labelledby="captions-window-video-player_component_546 captions-window-color-video-player_component_546 captions-window-color-video-player_component_546-Black">Black</option><option id="captions-window-color-video-player_component_546-White" value="#FFF" aria-labelledby="captions-window-video-player_component_546 captions-window-color-video-player_component_546 captions-window-color-video-player_component_546-White">White</option><option id="captions-window-color-video-player_component_546-Red" value="#F00" aria-labelledby="captions-window-video-player_component_546 captions-window-color-video-player_component_546 captions-window-color-video-player_component_546-Red">Red</option><option id="captions-window-color-video-player_component_546-Green" value="#0F0" aria-labelledby="captions-window-video-player_component_546 captions-window-color-video-player_component_546 captions-window-color-video-player_component_546-Green">Green</option><option id="captions-window-color-video-player_component_546-Blue" value="#00F" aria-labelledby="captions-window-video-player_component_546 captions-window-color-video-player_component_546 captions-window-color-video-player_component_546-Blue">Blue</option><option id="captions-window-color-video-player_component_546-Yellow" value="#FF0" aria-labelledby="captions-window-video-player_component_546 captions-window-color-video-player_component_546 captions-window-color-video-player_component_546-Yellow">Yellow</option><option id="captions-window-color-video-player_component_546-Magenta" value="#F0F" aria-labelledby="captions-window-video-player_component_546 captions-window-color-video-player_component_546 captions-window-color-video-player_component_546-Magenta">Magenta</option><option id="captions-window-color-video-player_component_546-Cyan" value="#0FF" aria-labelledby="captions-window-video-player_component_546 captions-window-color-video-player_component_546 captions-window-color-video-player_component_546-Cyan">Cyan</option></select><span class="vjs-window-opacity vjs-opacity"><label id="captions-window-opacity-video-player_component_546" class="vjs-label">Transparency</label><select aria-labelledby="captions-window-video-player_component_546 captions-window-opacity-video-player_component_546"><option id="captions-window-opacity-video-player_component_546-Transparent" value="0" aria-labelledby="captions-window-video-player_component_546 captions-window-opacity-video-player_component_546 captions-window-opacity-video-player_component_546-Transparent">Transparent</option><option id="captions-window-opacity-video-player_component_546-SemiTransparent" value="0.5" aria-labelledby="captions-window-video-player_component_546 captions-window-opacity-video-player_component_546 captions-window-opacity-video-player_component_546-SemiTransparent">Semi-Transparent</option><option id="captions-window-opacity-video-player_component_546-Opaque" value="1" aria-labelledby="captions-window-video-player_component_546 captions-window-opacity-video-player_component_546 captions-window-opacity-video-player_component_546-Opaque">Opaque</option></select></span></fieldset></div><div class="vjs-track-settings-font"><fieldset class="vjs-font-percent vjs-track-setting"><legend id="captions-font-size-video-player_component_546" class="">Font Size</legend><select aria-labelledby="captions-font-size-video-player_component_546"><option id="captions-font-size-video-player_component_546-50" value="0.50" aria-labelledby="captions-font-size-video-player_component_546 captions-font-size-video-player_component_546-50">50%</option><option id="captions-font-size-video-player_component_546-75" value="0.75" aria-labelledby="captions-font-size-video-player_component_546 captions-font-size-video-player_component_546-75">75%</option><option id="captions-font-size-video-player_component_546-100" value="1.00" aria-labelledby="captions-font-size-video-player_component_546 captions-font-size-video-player_component_546-100">100%</option><option id="captions-font-size-video-player_component_546-125" value="1.25" aria-labelledby="captions-font-size-video-player_component_546 captions-font-size-video-player_component_546-125">125%</option><option id="captions-font-size-video-player_component_546-150" value="1.50" aria-labelledby="captions-font-size-video-player_component_546 captions-font-size-video-player_component_546-150">150%</option><option id="captions-font-size-video-player_component_546-175" value="1.75" aria-labelledby="captions-font-size-video-player_component_546 captions-font-size-video-player_component_546-175">175%</option><option id="captions-font-size-video-player_component_546-200" value="2.00" aria-labelledby="captions-font-size-video-player_component_546 captions-font-size-video-player_component_546-200">200%</option><option id="captions-font-size-video-player_component_546-300" value="3.00" aria-labelledby="captions-font-size-video-player_component_546 captions-font-size-video-player_component_546-300">300%</option><option id="captions-font-size-video-player_component_546-400" value="4.00" aria-labelledby="captions-font-size-video-player_component_546 captions-font-size-video-player_component_546-400">400%</option></select></fieldset><fieldset class="vjs-edge-style vjs-track-setting"><legend id="video-player_component_546" class="">Text Edge Style</legend><select aria-labelledby="video-player_component_546"><option id="video-player_component_546-None" value="none" aria-labelledby="video-player_component_546 video-player_component_546-None">None</option><option id="video-player_component_546-Raised" value="raised" aria-labelledby="video-player_component_546 video-player_component_546-Raised">Raised</option><option id="video-player_component_546-Depressed" value="depressed" aria-labelledby="video-player_component_546 video-player_component_546-Depressed">Depressed</option><option id="video-player_component_546-Uniform" value="uniform" aria-labelledby="video-player_component_546 video-player_component_546-Uniform">Uniform</option><option id="video-player_component_546-Dropshadow" value="dropshadow" aria-labelledby="video-player_component_546 video-player_component_546-Dropshadow">Dropshadow</option></select></fieldset><fieldset class="vjs-font-family vjs-track-setting"><legend id="captions-font-family-video-player_component_546" class="">Font Family</legend><select aria-labelledby="captions-font-family-video-player_component_546"><option id="captions-font-family-video-player_component_546-ProportionalSansSerif" value="proportionalSansSerif" aria-labelledby="captions-font-family-video-player_component_546 captions-font-family-video-player_component_546-ProportionalSansSerif">Proportional Sans-Serif</option><option id="captions-font-family-video-player_component_546-MonospaceSansSerif" value="monospaceSansSerif" aria-labelledby="captions-font-family-video-player_component_546 captions-font-family-video-player_component_546-MonospaceSansSerif">Monospace Sans-Serif</option><option id="captions-font-family-video-player_component_546-ProportionalSerif" value="proportionalSerif" aria-labelledby="captions-font-family-video-player_component_546 captions-font-family-video-player_component_546-ProportionalSerif">Proportional Serif</option><option id="captions-font-family-video-player_component_546-MonospaceSerif" value="monospaceSerif" aria-labelledby="captions-font-family-video-player_component_546 captions-font-family-video-player_component_546-MonospaceSerif">Monospace Serif</option><option id="captions-font-family-video-player_component_546-Casual" value="casual" aria-labelledby="captions-font-family-video-player_component_546 captions-font-family-video-player_component_546-Casual">Casual</option><option id="captions-font-family-video-player_component_546-Script" value="script" aria-labelledby="captions-font-family-video-player_component_546 captions-font-family-video-player_component_546-Script">Script</option><option id="captions-font-family-video-player_component_546-SmallCaps" value="small-caps" aria-labelledby="captions-font-family-video-player_component_546 captions-font-family-video-player_component_546-SmallCaps">Small Caps</option></select></fieldset></div><div class="vjs-track-settings-controls"><button type="button" class="vjs-default-button" title="restore all settings to the default values">Reset<span class="vjs-control-text"> restore all settings to the default values</span></button><button type="button" class="vjs-done-button">Done</button></div></div><button class="vjs-close-button vjs-control vjs-button" type="button" aria-disabled="false" title="Close Modal Dialog"><span class="vjs-icon-placeholder" aria-hidden="true"></span><span class="vjs-control-text" aria-live="polite">Close Modal Dialog</span></button><p class="vjs-control-text">End of dialog window.</p></div><div class="vjs-modal-dialog vjs-hidden autoplay-not-watching-alert" tabindex="-1" aria-describedby="video-player_component_627_description" aria-hidden="true" aria-label="Modal Window" role="dialog"><p class="vjs-modal-dialog-description vjs-control-text" id="video-player_component_627_description">This is a modal window. This modal can be closed by pressing the Escape key or activating the close button.</p><div class="vjs-modal-dialog-content" role="document">Você está aí? Clique no vídeo para continuar a aula<button class="vjs-big-play-button" type="button" title="Play Video" aria-disabled="false"><span class="vjs-icon-placeholder" aria-hidden="true"></span><span class="vjs-control-text" aria-live="polite">Play Video</span></button></div><button class="vjs-close-button vjs-control vjs-button" type="button" aria-disabled="false" title="Close Modal Dialog"><span class="vjs-icon-placeholder" aria-hidden="true"></span><span class="vjs-control-text" aria-live="polite">Close Modal Dialog</span></button></div><div class="vjs-modal-dialog vjs-hidden autoplay-alert" tabindex="-1" aria-describedby="video-player_component_659_description" aria-hidden="true" aria-label="Modal Window" role="dialog"><p class="vjs-modal-dialog-description vjs-control-text" id="video-player_component_659_description">This is a modal window. This modal can be closed by pressing the Escape key or activating the close button.</p><div class="vjs-modal-dialog-content" role="document">Próxima Atividade<button class="vjs-control vjs-button next-task-timer-text" type="button" aria-disabled="false" title="Em 8 segundos"><span class="vjs-icon-placeholder" aria-hidden="true"></span><span class="vjs-control-text" aria-live="polite">Em 8 segundos</span></button><button class="vjs-control vjs-button autoplay-nexttask-button" type="button" aria-disabled="false"><span class="vjs-icon-placeholder" aria-hidden="true"></span><span class="vjs-control-text" aria-live="polite"></span></button><div class="vjs-control vjs-button autoplay-continue-button" tabindex="0" role="button" aria-disabled="false" title="Continuar"><span class="vjs-icon-placeholder" aria-hidden="true"><svg width="96" height="96" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="58" y="31.052" width="8" height="35.419" rx="4" fill="#fff"></rect><path fill-rule="evenodd" clip-rule="evenodd" d="M52.978 46.92L31.445 31.493c-1.507-1.102-3.445 0-3.445 1.763V64.11c0 1.763 1.938 2.865 3.445 1.763l21.533-15.427c1.077-.882 1.077-2.645 0-3.526z" fill="#fff"></path><circle cy="48" cx="48" r="45" class="border-continue-button" stroke="#fff" stroke-width="6"></circle></svg></span><span class="vjs-control-text" aria-live="polite">Continuar</span></div><button class="vjs-control vjs-button autoplay-cancel-button" type="button" aria-disabled="false" title="Cancelar"><span class="vjs-icon-placeholder" aria-hidden="true"></span><span class="vjs-control-text" aria-live="polite">Cancelar</span></button></div><button class="vjs-close-button vjs-control vjs-button" type="button" aria-disabled="false" title="Close Modal Dialog"><span class="vjs-icon-placeholder" aria-hidden="true"></span><span class="vjs-control-text" aria-live="polite">Close Modal Dialog</span></button></div></video-js>
+        </div>
+</section>
+                
+                    <section id="transcription" class="video-transcription transcription-toggle">
+                        
+                            <h2 class="video-transcription-title">Transcrição</h2>
+                        
+                        <div class="formattedText" data-external-links="">
+                                <p>[00:00] Olá, aluno. Tudo bom? Agora que nós vimos o funcionamento da nossa tela interagindo com o nosso <em>back-end</em> e vimos que para o desenvolvimento da nossa aplicação ficar com as boas práticas necessárias, nós vimos que precisamos dividir o nosso projeto em camadas.</p>
+<p>[00:21] Agora chegou a hora de darmos o próximo passo, que é de fato ver como vai funcionar esse projeto e botar a mão na massa para conseguirmos desenvolver esse código da melhor maneira. O projeto que nós utilizamos até agora, que é o "loja-virtual-repository", nós não vamos utilizar nessas aulas, então vocês podem dar um close na IDE de vocês, porque nós vamos importar um novo projeto, que está disponível para download na plataforma.</p>
+<p>[00:50] No meu caso, ele já está importado, mas para você importarem quando vocês salvarem no diretório de preferência de vocês, vocês vão no menu "File &gt; Import", selecione que você quer adicionar um novo projeto existente ao seu workspace, ele fica em "General &gt; Existing Projects into Workspace". Clique em "Next".</p>
+<p>[01:10] Clique em "Browse..." para selecionar o diretório onde vocês salvaram o projeto de vocês. O meu está aqui, em "eclipse-workspace". Tenho o projeto "jdbc-aula-8-projeto-completo", seleciono agora a pasta "loja-virtual-view-repository" e seleciono essa pasta. No meu caso, eu não posso selecionar o projeto, porque ele já está importado.</p>
+<p>[01:36] O projeto de vocês estará selecionável, é só selecionar e clicar no botão "Finish" e vocês vão ver essa estrutura de projeto. Então aqui nós começamos a ver alguma diferença em relação ao nosso outro projeto. Primeiro que já não temos mais aquele tanto de main, que usamos ao longo do curso para ir testando as operações com o banco de dados, nós temos só o <code>TestaOperacaoComView</code>, que é exatamente o main que vai chamar a nossa tela.</p>
+<p>[02:00] E aqui nós já vamos ver. Nós temos a nossa Controller, que é o controlador, que recebe a requisição da tela, encaminha para a DAO correta. Quando a DAO processa a informação, ela devolve para a Controller, que devolve para a <em>view</em>. Então é esse desenvolvimento em camadas, essa chamada em camadas que nós vimos no desenho e que fica bem representado pelos pacotes.</p>
+<p>[02:25] As DAOs, nós já tínhamos, então não é nada novo, nós só vamos passar por elas rápido aqui, porque nós vamos ver que agora, por exemplo, em <code>ProdutoDAO</code>, eu coloquei no nosso projeto novos métodos para a nossa tela ficar com todas as operações, pelo menos as operações básicas, que são o select, o insert, o update e o delete.</p>
+<p>[02:52] Então eu tenho agora um método <code>salvar</code>, eu tenho o <code>salvarComCategoria</code>, porque quando nós salvávamos, ele não estava salvando o ID da categoria na tabela de produto. Como agora, quando formos inserir através da nossa tela, vai ter aquela ComboBox de categorias, então agora eu tenho um novo método aqui, que é o que vamos chamar da tela, que vai inserir também o *ID da categoria.</p>
+<p>[03:20] Então vai ficar mais conciso, vai ficar mais real o nosso exemplo. E temos o método de listar, de buscar, que nós já tínhamos também, o de deletar, alterar, tudo isso nós já tínhamos feito, só que agora eu coloquei tudo na nossa DAO. A <code>CategoriaDAO</code> não teve mudança, nós não vamos usar os métodos de categoria, vamos utilizar só o listar, que retorna todas as categorias para montarmos a nossa lista de categorias.</p>
+<p>[03:49] Então a DAO, a única coisa que ela teve de diferente foi isso. A nossa <code>ConnectionFactory</code> continua aqui, porque nós vamos precisar ainda pegar uma conexão para interagir com o banco de dados. Nossas classes de modelo também continuam aqui, nós vimos que elas são essenciais nessa estrutura de <em>view</em>, Controller e DAO, porque são os objetos que são trafegados entre as camadas, são essas nossas classes de modelo.</p>
+<p>[04:16] Chegamos enfim à nossa <em>view</em>. Eu vou passar com vocês, para vocês entenderem mais ou menos o que foi feito aqui na tela. Só que eu quero chamar a atenção para um detalhe aqui: nós utilizamos o Swing para criar essa nossa tela. O Swing, ele é um recurso do próprio Java, mas ele é para desenvolvimento em desktop, ou seja, para aquelas telas que nós vamos subir na nossa própria máquina.</p>
+<p>[04:44] Hoje em dia não é mais tão utilizado, dificilmente vocês vão ver projetos que estão iniciando agora começando como um projeto desktop. Mas vamos ver projetos web, nós vamos ver projetos mobile, só que essas outras tecnologias, elas exigem recursos a mais. Então, por exemplo, se fossemos pensar no desenvolvimento web, nós vamos pensar em HTML, CSS, JavaScript.</p>
+<p>[05:14] Nós podemos pensar, hoje, em aplicações <em>front-end</em> desacopladas do <em>back-end</em>.  Então nós temos outro conhecimento que nós precisamos ter para desenvolver na web. Dessa forma, com o Swing, é interessante porque tudo o que aprendermos aqui, sobre a requisição para uma <em>view</em>, passando pelas camadas, nós vamos utilizar no desenvolvimento <em>web</em> e no desenvolvimento mobile.</p>
+<p>[05:42] Inclusive nós temos outras formações que vocês podem fazer, quem quer ser especialista em desenvolvimento mobile, nós vamos ter as próximas formações, que vamos aproveitar esse conhecimento aqui e vamos aprofundar ainda mais o conhecimento para desenvolver na web.</p>
+<p>[06:00] Então foi basicamente essa a nossa ideia aqui, trazer um pouco já desse conhecimento para vocês, mas indico para a próxima formação para ter um conhecimento 100% de como funciona todo esse mundo da web. Voltando para o nosso exemplo, então eu tenho o <code>ProdutoCategoriaFrame</code>, que vai ser aquela nossa tela.</p>
+<p>[06:19] O Swing, ele vai usar objetos Java para representar os objetos da nossa tela, então pode ver que eu tenho um <code>JLabel</code>, <code>JTextField</code>. Então Label é o nome que fica em cima da caixa de texto, que no nosso caso é o nome do produto, a descrição do produto. O <code>JTextField</code> é exatamente onde escrevemos qual é o nome do produto, qual é a descrição do produto.</p>
+<p>[06:41] Nisso nós vamos ter uma classe, um recurso do Java para cada recurso da tela: <code>JComboBox</code>, o <code>JButton</code>, o <code>JTable</code>. E como funciona? Dentro do construtor da nossa <code>ProdutoCategoriaFrame</code> que nós vamos configurar toda a tela. Então, por exemplo, esse <code>super("Produtos");</code> é o que vai ficar na barra superior quando subirmos a nossa aplicação. </p>
+<p>[07:04] Então nós vamos ver que vai ter Produtos na parte de cima da tela, isso é só um detalhe. E todas as configurações, eu instancio as minhas Controllers, eu tenho até um atributo <code>private ProdutoController produtoController;</code>, que nós vamos utilizar lá embaixo, vocês já vão ver os nossos métodos.</p>
+<p>[07:22] Temos <code>labelNome</code>, então o nome do produto. Aqui eu estou configurando as minhas Labels, a posição das minhas Labels, qual vai ser a cor da minha Label. E aqui eu adiciono na minha tela, que é o meu <code>container</code>. Então a partir desse ponto eu tenho isso inserido na minha tela. Isso vai servir para todos os recursos, então eu tenho <code>textoNome</code>, <code>textoDescricao</code>.</p>
+<p>[07:45] A única coisa que eu tenho, no <code>comboCategoria</code>, como ele é um <code>ComboBox</code> e ele lista as minhas categorias, eu tenho que fazer um <code>forEach</code> nesse método <code>listarCategoria</code>, que está chamando a nossa Controller e que vai nos retornar todas as categorias e vai adicionar na <code>ComboCategoria</code>.</p>
+<p>[08:05] Quando eu selecionar a categoria, ele, de alguma forma, que nós vamos ver ainda, vai pegar o ID desse item e vai salvar o produto na minha tela com o ID da categoria que eu selecionei. De resto aqui, a mesma coisa, só configuração da Label, do botão, o tamanho do botão, a posição, enfim. Então no nosso construtor nós fazemos isso, além de configurar os <code>ActionListener</code> dos botões.</p>
+<p>[08:32] Então, quando eu clico no <code>botaoSalvar</code>, ele vai chamar um método <code>salvar();</code>, vai <code>limparTabela();</code> e vai <code>preencherTabela();</code>, porque agora eu consigo mostrar esse novo recurso salvo no nosso banco de dados. A mesma coisa ele vai fazer, por exemplo, no <code>deletar();</code>, ele deleta, ele <code>limparTabela();</code> e ele <code>preencherTabela();</code>. Nós já vamos ver esse comportamento com detalhes.</p>
+<p>[08:52] E o <code>botaoEditar</code>, o <code>botaoLimpar</code>, que apenas limpa os nosso Text fields. Aqui nós temos as nossas regras de <em>front-end</em>, de <em>view</em>. Ou seja, as regras da nossa tela. Como são essas regras? Por exemplo, eu faço validações na hora de salvar, por exemplo. Primeiro eu preciso verificar, na hora de salvar, se o meu nome e descrição, os meus Text fields, eles estão diferentes de vazio.</p>
+<p>[09:23] Se estiverem, eu pego o produto, pego a categoria, pego todas as informações, chamo a minha <code>controller</code> e salvo. E faço um alerta, falando que que o produto foi salvo com sucesso. Se isso não for verdade, se os campos estiverem vazios, eu dou um <code>JOptionPane</code>, que é o recurso para fazer um alerta na nossa tela, falando que o nome e a descrição devem ser informados.</p>
+<p>[09:48] Então aqui são as nossas regras de <em>view</em>, por isso que eu não quis misturar e chamar as nossas DAO diretamente daqui, porque senão teríamos que passar conexão a partir da nossa <em>view</em> para a nossa DAO, e não faz muito sentido. Por isso o desenvolvimento em camadas, eu passo essa responsabilidade para a minha Controller, aqui são só as regras de <em>view</em>.</p>
+<p>[10:09] Por enquanto, como nós fazemos na <code>TestaOperaçãoComView</code>? Eu tenho um main, que vai chamar a nossa classe para mostrar a tela. Por enquanto, se eu mandar executar esse código, nós vamos ver que está diferente daquele da nossa primeira aula, que eu mostrei o funcionamento já interagindo com o banco de dados.</p>
+<p>[10:31] Nós vamos ver que, por enquanto, ele está mostrando que o produto é <em>null</em>, produto de teste, porque realmente eu ainda não estou conversando com o banco de dados. Então aqui eu só estou simulando. Se eu botar aqui um "aa" em nome do produto e em descrição do produto, e mando salvar, ele me dá uma mensagem de salvo com sucesso, mas nós vamos ver que ele só mostra no console, não vai para o banco de dados.</p>
+<p>[10:59] O nosso objetivo agora é qual? É exatamente isso: chegar no <code>CategoraController</code> e no <code>ProdutoController</code> e desenvolver as regras que vão fazer com que consigamos fazer essa interação com o banco de dados. Mas nessa aula já falamos muito, nós já fizemos um Overview de todo o projeto, de como ele está por enquanto. Esse desenvolvimento vai ficar para o próximo vídeo. Eu vou ficando por aqui. Até lá. Valeu.</p>
+                        </div>
+                    </section>
+                    
+                        <button class="video-transcription-button transcription-toggle" aria-hidden="true" style="display: none;">
+                            <span class="video-transcription-button-text">
+                                    continuar lendo</span>
+                        </button>
+                    
+                
+            </div>
+        </section>
+    
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+				
+					
+
+
+
+
+
+
+	
+	
+		<section class="task-actions">
+			<div class="container">
+				
+
+
+
+
+
+
+    
+        
+        <a href="https://cursos.alura.com.br/forum/curso-jdbc-dao-persistencia/exercicio-conhecendo-o-projeto/81275/novo" class=" task-actions-button task-actions-button-forum bootcamp-secondary-button-theme" target="_blank">
+            
+                
+                
+                    Discutir no Forum
+                
+            
+        </a>
+    
+
+
+
+				
+				
+				
+				
+					<a href="https://cursos.alura.com.br/course/jdbc-dao-persistencia/task/81275/next" style="background-color: #2A7AE4" class="task-actions-button task-body-actions-button task-actions-button-next bootcamp-next-button bootcamp-primary-button-theme">Próxima Atividade</a>
+				
+			</div>
+		</section>
+	
+
+
+				
+				
+					
+
+
+
+
+<div class="modalContainer">
+    <div class="modal" tabindex="-1" role="dialog">
+        <div class="modal-content">
+            <section class="modal-content-header">
+                <h4 class="modal-content-header-title">Atalhos de teclado</h4>
+                <button type="button" class="modal-content-header-close" aria-label="Fechar modal"></button>
+            </section>
+            <section class="modal-body">
+                <div class="normal-shortcut-keys">
+                    <table class="dashboard-table bootcamp-text-color-gray shortcut-table">
+                        <tbody>
+                        <tr>
+                            <td><img src="./Conhecendo o projeto_files/k-key.svg" alt="Letra k do teclado"> </td>
+                            <td>Tocar/Pausar o vídeo</td>
+                        </tr>
+                        <tr>
+                            <td><img src="./Conhecendo o projeto_files/m-key.svg" alt="Letra m do teclado"></td>
+                            <td>Mutar/Desmutar o vídeo</td>
+                        </tr>
+                        <tr>
+                            <td><img src="./Conhecendo o projeto_files/f-key.svg" alt="Letra f do teclado"></td>
+                            <td>Ativar/Desativar a tela cheia (full screen)</td>
+                        </tr>
+                        <tr>
+                            <td><img src="./Conhecendo o projeto_files/left-key.svg" alt="Seta para a esquerda"></td>
+                            <td>Voltar 10 segundos a reprodução do vídeo</td>
+                        </tr>
+                        <tr>
+                            <td><img src="./Conhecendo o projeto_files/right-key.svg" alt="Seta para a direita"></td>
+                            <td>Avançar 10 segundos a reprodução do vídeo</td>
+                        </tr>
+                        <tr>
+                            <td><img src="./Conhecendo o projeto_files/up-key.svg" alt="Seta para cima"></td>
+                            <td>Aumentar o volume em 5%</td>
+                        </tr>
+                        <tr>
+                            <td><img src="./Conhecendo o projeto_files/down-key.svg" alt="Seta para baixo"></td>
+                            <td>Diminuir o volume em 5%</td>
+                        </tr>
+                        <tr>
+                            <td><img src="./Conhecendo o projeto_files/space-key.svg" alt="Tecla espaço"></td>
+                            <td>Toca/Pausa o vídeo quando nenhum botão estiver em foco (selecionado).</td>
+                        </tr>
+                        <tr>
+                            <td><img src="./Conhecendo o projeto_files/space-key.svg" alt="Tecla espaço"></td>
+                            <td>Ativar/Desativar a função do botão que estiver em foco.</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="function-shortcut-keys">
+                    <table class="dashboard-table bootcamp-text-color-gray shortcut-table">
+                        <caption class="shortcuts-keys-title">Teclas de função</caption>
+                        <tbody>
+                            <tr>
+                                <td><img src="./Conhecendo o projeto_files/play-key.svg" alt="Tecla multimídia Play"></td>
+                                <td>Tocar o vídeo</td>
+                            </tr>
+                            <tr>
+                                <td><img src="./Conhecendo o projeto_files/pause-key.svg" alt="Tecla multimídia Pause"></td>
+                                <td>Pausar o vídeo</td>
+                            </tr>
+                            <tr>
+                                <td><img src="./Conhecendo o projeto_files/stop-key.svg" alt="Tecla multimídia Stop"></td>
+                                <td>Parar o vídeo</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+
+				
+			</main>
+		</div>
+	</section>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<button title="Abrir menu/Fechar menu" aria-label="Abrir menu/Fechar menu" type="button" class="openMenu-button task-body-button ">
+</button>
+
+<aside class="task-menu task-menu-iframe" style="position: fixed; transform: translateY(0px);">
+	<section class="task-menu-header">
+		<button title="Fechar menu" aria-label="Fechar menu" type="button" class="openMenu-button task-menu-button "></button>
+		<div class="task-menu-header-info">
+			<a class="task-menu-header-info-title" href="https://cursos.alura.com.br/course/jdbc-dao-persistencia" title="Ir para página do curso">
+				
+					
+					
+						<img src="./Conhecendo o projeto_files/jdbc-dao-persistencia.svg" alt="ícone Java e JDBC: Trabalhando com um banco de dados" class="task-menu-header-info-title-icon " width="37.5px" height="37.5px">
+					
+				
+				<h2 class="task-menu-header-info-title-text">Java e JDBC: Trabalhando com um banco de dados</h2>
+			</a>
+			
+				<div class="task-menu-header-info-progress">
+					
+					<span class="task-menu-header-info-progress-percentage ">91%</span>
+					
+					<span class="task-menu-header-info-progress-bar" style="background-image: linear-gradient(to right, #9de482, #9de482 91%, transparent 91%);"></span>
+				</div>
+			
+
+		</div>
+	</section>
+	
+		<form class="task-menu-header-search" target="_blank" action="https://cursos.alura.com.br/search/course/jdbc-dao-persistencia" method="get">
+			<label class="task-menu-header-search-title" for="query">Buscar neste curso</label>
+			<input class="task-menu-header-search-input" name="query" id="query" type="text" required="">
+			<button class="task-menu-header-search-button">Buscar <img aria-hidden="true" class="task-menu-header-search-button-img" src="./Conhecendo o projeto_files/icon-new-page.svg"></button>
+		</form>
+	
+	
+	<section class="task-menu-section sr-only">
+		<div class="task-menu-section-title">
+			<span class="task-menu-section-title-number ">Aula<strong>08</strong>
+				<span>de 08</span>
+			</span>
+			<h3 class="task-menu-section-title-text">
+				Aplicação Desktop
+			</h3>
+		</div>
+	</section>
+	<section class="task-menu-sections">
+		<h2 class="task-menu-sections-title">
+			Aula Atual
+		</h2>
+		<select class="task-menu-sections-select" onchange="location.href=&#39;/course/jdbc-dao-persistencia/section/&#39;+this.value+&#39;/tasks&#39;;">
+			
+				<option value="9751">01. Introdução ao JDBC e o padrão Factory</option>
+			
+				<option value="9752">02. Executando comandos SQL no Java</option>
+			
+				<option value="9753">03. Evitando SQL Injection</option>
+			
+				<option value="9754">04. Controle de transação</option>
+			
+				<option value="9755">05. Escalabilidade com pool de conexões</option>
+			
+				<option value="9918">06. Camada de persistência com DAO</option>
+			
+				<option value="9919">07. Evitando queries N + 1</option>
+			
+				<option value="11073" selected="">08. Aplicação Desktop</option>
+			
+		</select>
+	</section>
+	<nav class="task-menu-nav">
+		<h2 class="task-menu-nav-title">
+			Atividades
+			<span>5 de 10</span>
+		</h2>
+		<ul class="task-menu-nav-list">
+			
+				
+				<li class="task-menu-nav-item ">
+					<a href="https://cursos.alura.com.br/course/jdbc-dao-persistencia/task/81279" class="task-menu-nav-item-link task-menu-nav-item-link-HQ_EXPLANATION">
+						
+						
+					<svg class="task-menu-nav-item-svg task-menu-nav-item-svg--done" aria-label="Atividade de Explicação concluída">
+						<use xlink:href="/assets/images/classPage/icon-menu-icons.svg#HQ_EXPLANATION"></use>
+					</svg>
+					<span class="task-menu-nav-item-number">01</span>
+					<span class="task-menu-nav-item-text">
+						<span class="task-menu-nav-item-title" title="Projeto da aula anterior">
+							Projeto da aula anterior
+						</span>
+						
+					</span></a>
+				</li>
+			
+				
+				<li class="task-menu-nav-item ">
+					<a href="https://cursos.alura.com.br/course/jdbc-dao-persistencia/task/81273" class="task-menu-nav-item-link task-menu-nav-item-link-VIDEO">
+						
+						
+					<svg class="task-menu-nav-item-svg task-menu-nav-item-svg--done" aria-label="Atividade de Vídeo concluída">
+						<use xlink:href="/assets/images/classPage/icon-menu-icons.svg#VIDEO"></use>
+					</svg>
+					<span class="task-menu-nav-item-number">02</span>
+					<span class="task-menu-nav-item-text">
+						<span class="task-menu-nav-item-title" title="Apresentando a View de Produtos">
+							Apresentando a View de Produtos
+						</span>
+						
+						<span class="task-menu-nav-item-infos">
+							
+								<span class="task-menu-nav-item-videoDuration" title="Ir para o Vídeo">05min</span>
+							
+						</span>
+					</span>
+					
+					</a>
+				</li>
+			
+				
+				<li class="task-menu-nav-item ">
+					<a href="https://cursos.alura.com.br/course/jdbc-dao-persistencia/task/81274" class="task-menu-nav-item-link task-menu-nav-item-link-VIDEO">
+						
+						
+					<svg class="task-menu-nav-item-svg task-menu-nav-item-svg--done" aria-label="Atividade de Vídeo concluída">
+						<use xlink:href="/assets/images/classPage/icon-menu-icons.svg#VIDEO"></use>
+					</svg>
+					<span class="task-menu-nav-item-number">03</span>
+					<span class="task-menu-nav-item-text">
+						<span class="task-menu-nav-item-title" title="Apresentando as camadas da aplicação">
+							Apresentando as camadas da aplicação
+						</span>
+						
+						<span class="task-menu-nav-item-infos">
+							
+								<span class="task-menu-nav-item-videoDuration" title="Ir para o Vídeo">05min</span>
+							
+						</span>
+					</span>
+					
+					</a>
+				</li>
+			
+				
+				<li class="task-menu-nav-item ">
+					<a href="https://cursos.alura.com.br/course/jdbc-dao-persistencia/task/81280" class="task-menu-nav-item-link task-menu-nav-item-link-HQ_EXPLANATION">
+						
+						
+					<svg class="task-menu-nav-item-svg task-menu-nav-item-svg--done" aria-label="Atividade de Explicação concluída">
+						<use xlink:href="/assets/images/classPage/icon-menu-icons.svg#HQ_EXPLANATION"></use>
+					</svg>
+					<span class="task-menu-nav-item-number">04</span>
+					<span class="task-menu-nav-item-text">
+						<span class="task-menu-nav-item-title" title="Download do novo projeto">
+							Download do novo projeto
+						</span>
+						
+					</span></a>
+				</li>
+			
+				
+				<li class="task-menu-nav-item task-menu-nav-item--selected">
+					<a href="https://cursos.alura.com.br/course/jdbc-dao-persistencia/task/81275" class="task-menu-nav-item-link task-menu-nav-item-link-VIDEO">
+						
+						
+					<svg class="task-menu-nav-item-svg task-menu-nav-item-svg--done" aria-label="Atividade de Vídeo não concluída">
+						<use xlink:href="/assets/images/classPage/icon-menu-icons.svg#VIDEO"></use>
+					</svg>
+					<span class="task-menu-nav-item-number">05</span>
+					<span class="task-menu-nav-item-text">
+						<span class="task-menu-nav-item-title" title="Conhecendo o projeto">
+							Conhecendo o projeto
+						</span>
+						
+						<span class="task-menu-nav-item-infos">
+							
+								<span class="task-menu-nav-item-videoDuration" title="Ir para o Vídeo">12min</span>
+							
+						</span>
+					</span>
+					
+					</a>
+				</li>
+			
+				
+				<li class="task-menu-nav-item ">
+					<a href="https://cursos.alura.com.br/course/jdbc-dao-persistencia/task/81276" class="task-menu-nav-item-link task-menu-nav-item-link-VIDEO">
+						
+						
+					<svg class="task-menu-nav-item-svg " aria-label="Atividade de Vídeo não concluída">
+						<use xlink:href="/assets/images/classPage/icon-menu-icons.svg#VIDEO"></use>
+					</svg>
+					<span class="task-menu-nav-item-number">06</span>
+					<span class="task-menu-nav-item-text">
+						<span class="task-menu-nav-item-title" title="Implementando as controllers">
+							Implementando as controllers
+						</span>
+						
+						<span class="task-menu-nav-item-infos">
+							
+								<span class="task-menu-nav-item-videoDuration" title="Ir para o Vídeo">09min</span>
+							
+						</span>
+					</span>
+					
+					</a>
+				</li>
+			
+				
+				<li class="task-menu-nav-item ">
+					<a href="https://cursos.alura.com.br/course/jdbc-dao-persistencia/task/81277" class="task-menu-nav-item-link task-menu-nav-item-link-VIDEO">
+						
+						
+					<svg class="task-menu-nav-item-svg " aria-label="Atividade de Vídeo não concluída">
+						<use xlink:href="/assets/images/classPage/icon-menu-icons.svg#VIDEO"></use>
+					</svg>
+					<span class="task-menu-nav-item-number">07</span>
+					<span class="task-menu-nav-item-text">
+						<span class="task-menu-nav-item-title" title="Revisando o projeto">
+							Revisando o projeto
+						</span>
+						
+						<span class="task-menu-nav-item-infos">
+							
+								<span class="task-menu-nav-item-videoDuration" title="Ir para o Vídeo">05min</span>
+							
+						</span>
+					</span>
+					
+					</a>
+				</li>
+			
+				
+				<li class="task-menu-nav-item ">
+					<a href="https://cursos.alura.com.br/course/jdbc-dao-persistencia/task/81209" class="task-menu-nav-item-link task-menu-nav-item-link-HQ_EXPLANATION">
+						
+						
+					<svg class="task-menu-nav-item-svg " aria-label="Atividade de Explicação não concluída">
+						<use xlink:href="/assets/images/classPage/icon-menu-icons.svg#HQ_EXPLANATION"></use>
+					</svg>
+					<span class="task-menu-nav-item-number">08</span>
+					<span class="task-menu-nav-item-text">
+						<span class="task-menu-nav-item-title" title="Projeto final">
+							Projeto final
+						</span>
+						
+					</span></a>
+				</li>
+			
+				
+				<li class="task-menu-nav-item ">
+					<a href="https://cursos.alura.com.br/course/jdbc-dao-persistencia/task/81272" class="task-menu-nav-item-link task-menu-nav-item-link-HQ_EXPLANATION">
+						
+						
+					<svg class="task-menu-nav-item-svg " aria-label="Atividade de Explicação não concluída">
+						<use xlink:href="/assets/images/classPage/icon-menu-icons.svg#WHAT_WE_LEARNED"></use>
+					</svg>
+					<span class="task-menu-nav-item-number">09</span>
+					<span class="task-menu-nav-item-text">
+						<span class="task-menu-nav-item-title" title="O que aprendemos?">
+							O que aprendemos?
+						</span>
+						
+					</span></a>
+				</li>
+			
+				
+				<li class="task-menu-nav-item ">
+					<a href="https://cursos.alura.com.br/course/jdbc-dao-persistencia/task/81278" class="task-menu-nav-item-link task-menu-nav-item-link-VIDEO">
+						
+						
+					<svg class="task-menu-nav-item-svg " aria-label="Atividade de Vídeo não concluída">
+						<use xlink:href="/assets/images/classPage/icon-menu-icons.svg#VIDEO"></use>
+					</svg>
+					<span class="task-menu-nav-item-number">10</span>
+					<span class="task-menu-nav-item-text">
+						<span class="task-menu-nav-item-title" title="Conclusão">
+							Conclusão
+						</span>
+						
+						<span class="task-menu-nav-item-infos">
+							
+								<span class="task-menu-nav-item-videoDuration" title="Ir para o Vídeo">04min</span>
+							
+						</span>
+					</span>
+					
+					</a>
+				</li>
+			
+			
+		</ul>
+	</nav>
+	<section class="task-menu-others">
+		<h2 class="task-menu-others-title ">
+			Outros Links
+		</h2>
+		
+			
+			<a href="https://cursos.alura.com.br/forum/curso-jdbc-dao-persistencia/todos" class="task-menu-others-link task-menu-others-link-forum" title="Ir para o fórum do curso" target="_blank">
+				
+					
+					
+						Fórum do curso
+					
+				
+			</a>
+		
+		<a href="https://cursos.alura.com.br/dashboard" class="task-menu-others-link task-menu-others-link-curso" title="Ir para a página principal">Voltar para Dashboard</a>
+		<section class="task-container-flex ">
+			
+				<div class="task-group-border ">
+					<button class="task-edit-mode settings-box-item-darkmode">Modo noturno</button>
+				</div>
+			
+			
+				<div class="task-group-border ">
+					<button class="class-notes-button">Abrir caderno</button>
+				</div>
+			
+		</section>
+	</section>
+	<section class="task-menu-footer">
+		<a class="task-menu-footer-user" href="https://cursos.alura.com.br/user/felipesoares100" title="Ir para sua página de usuário">
+			<img src="./Conhecendo o projeto_files/61c493d8-b66d-4184-91e5-33ef10c14d2c.jpg" alt="Gravatar de Felipe Henrique Soares de Andrade" class="task-menu-footer-img" width="40px" height="40px">
+			
+				<p class="task-menu-footer-detalhes">
+					<span class="task-menu-footer-detalhes-nome">Felipe Henrique Soares de Andrade</span>
+					<span class="task-menu-footer-detalhes-xp">
+						51.0k xp
+					</span>
+				</p>
+			
+			<input type="hidden" value="">
+			<input type="hidden" value="">
+		</a>
+		<a href="https://cursos.alura.com.br/dashboard" class="task-menu-footer-logo">
+			<img src="./Conhecendo o projeto_files/icon-menu-alura.svg" alt="Logo da Alura" class="task-menu-footer-logo-image" width="19px" height="32px" title="Ir para a página principal">
+		</a>
+	</section>
+</aside>
+
+
+
+</section><div class="full-screen__panel" style="display: none;">
+				<img id="full-screen__image" class="full-screen__image" src="https://cursos.alura.com.br/course/jdbc-dao-persistencia/task/81275" alt="">
+				<div class="full-screen__actions">
+				<button class="button buttonAction partitura-download">Anterior</button><button class="button buttonAction partitura-download">Sair</button><button class="button buttonAction partitura-download">Próximo</button></div> 
+			</div>
+
+
+
+
+
+
+
+
+
+
+	
+		
+		<!-- Hotjar Tracking Code for https://cursos.alura.com.br -->
+		<script>
+			(function(h,o,t,j,a,r){
+				h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+				h._hjSettings={hjid:1638253,hjsv:6};
+				a=o.getElementsByTagName('head')[0];
+				r=o.createElement('script');r.async=1;
+				r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+				a.appendChild(r);
+			})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+		</script>
+	
+
+	<script src="./Conhecendo o projeto_files/jquery-3.6.0.min.js.download"></script>
+	<script src="./Conhecendo o projeto_files/buttonToggle.js.download"></script>
+	<script src="./Conhecendo o projeto_files/sectionMenu.2bb600e2.js.download" async=""></script>
+
+
+    <script src="./Conhecendo o projeto_files/purify.min.js.download"></script>
+
+	<script src="./Conhecendo o projeto_files/caret.js.download" async=""></script>
+	<script src="./Conhecendo o projeto_files/keydownWatchers.fdc4ec79.js.download" async=""></script>
+	<script src="./Conhecendo o projeto_files/prettify.min.js.download" async=""></script>
+
+	<script src="./Conhecendo o projeto_files/preventsMultipleInteractions.19502e19.js.download" async=""></script>
+	<script src="./Conhecendo o projeto_files/assessment.78d1fb98.js.download" async=""></script>
+
+	<script src="./Conhecendo o projeto_files/menuSettings.fb011b3b.js.download"></script>
+	<script src="./Conhecendo o projeto_files/aria.c6966b53.js.download"></script>
+	<script src="./Conhecendo o projeto_files/ProjectSubmit.949766d0.js.download"></script>
+	<script src="./Conhecendo o projeto_files/classPage.1fa116eb.js.download"></script>
+	<script src="./Conhecendo o projeto_files/phrase.dfd04ee1.js.download"></script>
+	<script src="./Conhecendo o projeto_files/feedback.7962df4a.js.download"></script>
+	<script src="./Conhecendo o projeto_files/ExtraContentProgressRequest.e868061c.js.download"></script>
+	
+	
+		<!-- video specific -->
+		<script src="./Conhecendo o projeto_files/video.min.js.download"></script>
+		<script src="./Conhecendo o projeto_files/silvermine-videojs-quality-selector.min.js.download"></script>
+		<script src="./Conhecendo o projeto_files/vimeo.min.js.download"></script>
+		<script src="./Conhecendo o projeto_files/dash.all.min.js.download"></script>
+		<script src="./Conhecendo o projeto_files/videojs-dash.min.js.download"></script>
+		<script src="./Conhecendo o projeto_files/transcriptionToggle.afde441e.js.download"></script>
+
+		
+			<script src="./Conhecendo o projeto_files/AutoPlay.87da4dc3.js.download"></script>
+		
+
+		<script src="./Conhecendo o projeto_files/lastMomentManager.3e23aff1.js.download"></script>
+		<script src="./Conhecendo o projeto_files/VideoPlayer.61230669.js.download"></script>
+		<script src="./Conhecendo o projeto_files/scroll-top.acd0a474.js.download"></script>
+		<script>
+			new VideoPlayer().build();
+		</script>
+		
+			<script src="./Conhecendo o projeto_files/TheaterMode.881eac55.js.download"></script>
+			<script>new TheaterModeToggler().registerTheaterModeComponentOnVideoJS();</script>
+		
+	
+
+	
+	
+	
+	
+
+	<script src="./Conhecendo o projeto_files/partitura.d5cb1e7e.js.download"></script>
+	<script src="./Conhecendo o projeto_files/audioProgress.422af45b.js.download"></script>
+	<script src="./Conhecendo o projeto_files/audioPlayer.a98712ad.js.download"></script>
+
+		
+	<script src="./Conhecendo o projeto_files/VideoTranscription.22ea2382.js.download"></script>
+	<script src="./Conhecendo o projeto_files/MarkdownProcessing.0eb1da12.js.download"></script>
+	<script src="./Conhecendo o projeto_files/clipboard.min.js.download"></script>
+	<script src="./Conhecendo o projeto_files/Clipper.ef194f3f.js.download"></script>
+	<script src="./Conhecendo o projeto_files/scroll-to-top.47438d71.js.download"></script>
+	<script src="./Conhecendo o projeto_files/shortcuts-action.bf83d10d.js.download"></script>
+	<script>
+		new VideoTranscription();
+		new MarkdownProcessing("https://cursos.alura.com.br").onLoad();
+		new Clipper("Copiar código", "Código copiado!", "Falha ao copiar o código!");
+		window.addEventListener('load', () => new BackToTopButton().init());
+	</script>
+
+
+
+	
+
+	<script src="./Conhecendo o projeto_files/darkMode.6a4f1e0c.js.download"></script>
+
+	
+		
+
+
+
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    
+    ga('create', 'UA-42101548-1', 'alura.com.br');
+
+    
+        ga('set', 'userId', '819313');
+    
+
+    ga('require', 'displayfeatures');
+    
+    ga('send', 'pageview');
+    
+    
+</script>
+	
+
+	<script>new DarkModeToggler().refreshListener()</script>
+
+	<script src="./Conhecendo o projeto_files/ClassNotes.c71ce871.js.download">
+	</script>
+<script>
+	new ClassNotes(false).refreshListeners();
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="./Conhecendo o projeto_files/uploadImages.7c1a29db.css" rel="stylesheet">
+
+<script src="./Conhecendo o projeto_files/UploadProgress.7b7f16b7.js.download"></script>
+<script src="./Conhecendo o projeto_files/ImagesClient.b2cf24f1.js.download"></script>
+
+<script src="./Conhecendo o projeto_files/marked.min.js.download"></script>
+
+<script src="./Conhecendo o projeto_files/enableForumButtons.6631eabb.js.download"></script>
+
+<script>
+    var IMAGE_UPLOAD_MESSAGES = {
+        imageUploadMessageInit: `Anexe arquivos arrastando e soltando`,
+        imageUploadMessageDragEnter: `Solte a imagem para fazer o upload`,
+        imageUploadMessageDrop: `Enviando a imagem #images_names#`,
+        imageUploadMessageProgress: `Enviando a imagem #images_names#: #progress#%`,
+        imageUploadMessageUploaded: `Imagem enviada com sucesso!`,
+        imageUploadMessageSizeUnits: `MB`,
+        imageUploadMessageTag: `![Insira aqui a descrição dessa imagem para ajudar na acessibilidade](#url#) `
+    }
+</script>
+
+
+    
+        <link href="./Conhecendo o projeto_files/hackeditor.min.css" rel="stylesheet">
+        <link href="./Conhecendo o projeto_files/hackeditor.custom.css" rel="stylesheet">
+
+
+        <script src="./Conhecendo o projeto_files/hackeditor.min.js.download"></script>
+        <script src="./Conhecendo o projeto_files/hackeditor.custom.js.download"></script>
+        <script>
+            const setupEditorsOnPage = (e) => {
+                const toolbarActionsHints = {
+                    toggleHeadingActionHint: `Título`,
+                    toggleBoldActionHint: `Negrito`,
+                    toggleItalicActionHint: `Itálico`,
+                    toggleOrderedListActionHint: `Lista ordenada`,
+                    toggleUnorderedListActionHint: `Lista não ordenada`,
+                    togglePreviewActionHint: `Pré-visualizar`,
+                    drawTableActionHint: `Inserir Tabela`,
+                    drawCodeActionHint: `Inserir bloco de código`,
+                    drawLinkActionHint: `Inserir Link`,
+                    drawImageActionHint: `Inserir Imagem`,
+                    drawUploadedImageActionHint: `Upload de imagem`,
+                    undoActionHint: `Desfazer`,
+                    redoActionHint: `Refazer`
+                }
+
+                const imageUploadErrors = {
+                    imageErrorLimit: `Você só pode inserir 5 imagens por vez!`,
+                    imageFileNotAllowed: `O arquivo filename não é permitido, apenas imagens!`,
+                    imageVeryLarge: `O arquivo filename é maior que o limite de 2 MB.`,
+                    imageMaliciousFile: `O arquivo filename contém conteúdo malicioso.`
+                }
+
+                window.editors = window.editors || [];
+
+                const textAreaEditors = Array.from(document.querySelectorAll('.hackeditor > textarea'));
+
+                const editorsElements = window.editors.map(ed => ed.element.name);
+
+                textAreaEditors
+                    .filter(e => e.closest('.taskForms') == null)
+                    .filter(e => editorsElements.length == 0 ? true : !editorsElements.includes(e.name))
+                    .forEach(editorTextArea => {
+                        const editor = setupHackEditor({
+                            editorOptions: {
+                                element: editorTextArea,
+                                initialValue: editorTextArea.innerText,
+                                syncPreview: true,
+                                maxHeight: "300px",
+                                toolbarActionsHints,
+                                imageUploadMessages: IMAGE_UPLOAD_MESSAGES,
+                                imageUploadErrors,
+                                imageUploadClient: new ImagesClient(
+                                    'https://www.gnarususercontent.com.br/images',
+                                    'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MTY0NDM0MzQsImtleSI6IjdiMjcwMTliLWRlNDgtNGQyZi1iOTYyLTFkOWYyMzcyZjliNyJ9.ZBnDO5eAPNeO8zVrIZiYM0RiHiFkaQMkGR3jHKyltD0',
+                                    1,
+                                    819313
+                                ),
+                                allowImageUpload: editorTextArea.dataset.allowImageUpload
+                                },
+                                extensions: {
+                                    DOMPurify,
+                                    marked,
+                                }
+                        });
+
+                        window.editors.push({
+                            instance: editor,
+                            element: editorTextArea,
+                        });
+
+                        enableForumButtons();
+                });
+            }
+
+            window.addEventListener('DOMContentLoaded', setupEditorsOnPage);
+            document.addEventListener('change', setupEditorsOnPage);
+        </script>
+    
+    
+
+<script src="./Conhecendo o projeto_files/IframeChecker.acaeeeab.js.download"></script>
+
+
+
+
+<script type="text/javascript" id="">elements=document.querySelectorAll("input, select");elements.forEach(function(b,c){b.addEventListener("change",function(a){a=this.getAttribute("name");dataLayer.push({event:"gaEvent",eventCategory:"Formul\u00e1rios",eventAction:"Altera\u00e7\u00e3o",eventLabel:a})})});</script>
+<script type="text/javascript" id="">var key="Think_Again45984$%";function log(a){console.log(a)}function getPars(){var a={};window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(b,c,d){a[c]=d});return a}function userId(a){a=sha256.hmac(key,a);dataLayer.push({event:"userId",userId:a})}var script=document.createElement("script");script.onload=function(){var a=getPars().e;a&&userId(a);a=document.querySelectorAll('[type\x3d"email"]');for(var b=0;b<a.length;b++)a[b].onchange=function(){userId(this.value)}};script.src="https://cdnjs.cloudflare.com/ajax/libs/js-sha256/0.9.0/sha256.min.js";
+document.head.appendChild(script);</script><iframe name="_hjRemoteVarsFrame" title="_hjRemoteVarsFrame" id="_hjRemoteVarsFrame" src="./Conhecendo o projeto_files/box-dfc01efbdc94bb0936d9a35a502b0b64.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><button class="back-to-top" type="button" style="display: flex;"><span class="back-to-top__text">Voltar ao topo</span></button></body><div id="detach-button-host" style="--opera-video-toolbar-button-color:hsl(347, 96%, 55%); top: -2025px; left: 1098.24px;"></div></html>

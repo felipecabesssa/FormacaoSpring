@@ -1,0 +1,2 @@
+starta o eclipse no C:\ws
+nome do projeto é spring-data.
